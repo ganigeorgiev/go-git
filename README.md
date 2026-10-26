@@ -1,3 +1,7 @@
+**This is a go-git fork with a temp workaround until [#2519](https://github.com/go-git/go-git/issues/2519) get resolved.**
+
+---
+
 ![go-git logo](https://cdn.rawgit.com/src-d/artwork/02036484/go-git/files/go-git-github-readme-header.png)
 [![GoDoc](https://godoc.org/github.com/go-git/go-git/v6?status.svg)](https://pkg.go.dev/github.com/go-git/go-git/v6) [![Build Status](https://github.com/go-git/go-git/workflows/Test/badge.svg)](https://github.com/go-git/go-git/actions) [![Go Report Card](https://goreportcard.com/badge/github.com/go-git/go-git)](https://goreportcard.com/report/github.com/go-git/go-git) [![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/go-git/go-git/badge)](https://scorecard.dev/viewer/?uri=github.com/go-git/go-git)
 
