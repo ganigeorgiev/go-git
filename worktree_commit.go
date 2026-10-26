@@ -11,15 +11,15 @@ import (
 
 	"github.com/go-git/go-billy/v6"
 
-	"github.com/go-git/go-git/v6/config"
-	"github.com/go-git/go-git/v6/plumbing"
-	"github.com/go-git/go-git/v6/plumbing/filemode"
-	"github.com/go-git/go-git/v6/plumbing/format/index"
-	"github.com/go-git/go-git/v6/plumbing/object"
-	"github.com/go-git/go-git/v6/storage"
-	"github.com/go-git/go-git/v6/utils/merkletrie"
-	"github.com/go-git/go-git/v6/utils/trace"
-	"github.com/go-git/go-git/v6/x/plugin"
+	"github.com/ganigeorgiev/go-git/v6/config"
+	"github.com/ganigeorgiev/go-git/v6/plumbing"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/filemode"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/format/index"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/object"
+	"github.com/ganigeorgiev/go-git/v6/storage"
+	"github.com/ganigeorgiev/go-git/v6/utils/merkletrie"
+	"github.com/ganigeorgiev/go-git/v6/utils/trace"
+	"github.com/ganigeorgiev/go-git/v6/x/plugin"
 )
 
 var (

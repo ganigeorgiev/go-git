@@ -3,7 +3,7 @@ package url
 import "testing"
 
 var benchURLs = []string{
-	"https://github.com/go-git/go-git.git",
+	"https://github.com/ganigeorgiev/go-git.git",
 	"http://git:pass@github.com:8080/user/repository.git?foo#bar",
 	"ssh://git@github.com:777/user/repository.git",
 	"git://github.com/user/repository.git",

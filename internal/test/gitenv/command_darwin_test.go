@@ -11,7 +11,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/go-git/go-git/v6/internal/test/gitenv"
+	"github.com/ganigeorgiev/go-git/v6/internal/test/gitenv"
 )
 
 // xcrunTimeout bounds the xcrun calls these tests make for themselves, at the

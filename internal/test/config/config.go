@@ -10,12 +10,12 @@ import (
 
 	_ "unsafe" // for go:linkname
 
-	gitconfig "github.com/go-git/go-git/v6/config"
-	"github.com/go-git/go-git/v6/x/plugin"
-	xconfig "github.com/go-git/go-git/v6/x/plugin/config"
+	gitconfig "github.com/ganigeorgiev/go-git/v6/config"
+	"github.com/ganigeorgiev/go-git/v6/x/plugin"
+	xconfig "github.com/ganigeorgiev/go-git/v6/x/plugin/config"
 )
 
-//go:linkname resetPluginEntry github.com/go-git/go-git/v6/x/plugin.resetEntry
+//go:linkname resetPluginEntry github.com/ganigeorgiev/go-git/v6/x/plugin.resetEntry
 func resetPluginEntry(name plugin.Name)
 
 // DefaultConfig returns a minimal git config suitable for tests.

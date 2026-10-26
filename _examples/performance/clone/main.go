@@ -8,11 +8,11 @@ import (
 
 	"github.com/go-git/go-billy/v6/osfs"
 
-	"github.com/go-git/go-git/v6"
-	. "github.com/go-git/go-git/v6/_examples"
-	"github.com/go-git/go-git/v6/plumbing/cache"
-	"github.com/go-git/go-git/v6/plumbing/hash"
-	"github.com/go-git/go-git/v6/storage/filesystem"
+	"github.com/ganigeorgiev/go-git/v6"
+	. "github.com/ganigeorgiev/go-git/v6/_examples"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/cache"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/hash"
+	"github.com/ganigeorgiev/go-git/v6/storage/filesystem"
 )
 
 // Expands the Basic example focusing in performance.

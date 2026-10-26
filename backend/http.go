@@ -8,7 +8,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/go-git/go-git/v6/plumbing/transport"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/transport"
 )
 
 type httpService struct {

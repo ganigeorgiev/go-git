@@ -3,10 +3,10 @@ package transport
 import (
 	"context"
 
-	"github.com/go-git/go-git/v6/plumbing"
-	"github.com/go-git/go-git/v6/plumbing/protocol/capability"
-	"github.com/go-git/go-git/v6/plumbing/protocol/packp"
-	"github.com/go-git/go-git/v6/storage"
+	"github.com/ganigeorgiev/go-git/v6/plumbing"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/protocol/capability"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/protocol/packp"
+	"github.com/ganigeorgiev/go-git/v6/storage"
 )
 
 // Commander is an optional capability that Protocol v2-capable sessions

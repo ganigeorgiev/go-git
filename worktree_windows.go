@@ -9,7 +9,7 @@ import (
 
 	"golang.org/x/sys/windows"
 
-	"github.com/go-git/go-git/v6/plumbing/format/index"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/format/index"
 )
 
 func init() {

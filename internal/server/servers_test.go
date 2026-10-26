@@ -9,11 +9,11 @@ import (
 	fixtures "github.com/go-git/go-git-fixtures/v6"
 	"github.com/stretchr/testify/suite"
 
-	servergit "github.com/go-git/go-git/v6/internal/server/git"
-	serverhttp "github.com/go-git/go-git/v6/internal/server/http"
-	"github.com/go-git/go-git/v6/plumbing/transport"
-	transportgit "github.com/go-git/go-git/v6/plumbing/transport/git"
-	transporthttp "github.com/go-git/go-git/v6/plumbing/transport/http"
+	servergit "github.com/ganigeorgiev/go-git/v6/internal/server/git"
+	serverhttp "github.com/ganigeorgiev/go-git/v6/internal/server/http"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/transport"
+	transportgit "github.com/ganigeorgiev/go-git/v6/plumbing/transport/git"
+	transporthttp "github.com/ganigeorgiev/go-git/v6/plumbing/transport/http"
 )
 
 type serverImplementation struct {

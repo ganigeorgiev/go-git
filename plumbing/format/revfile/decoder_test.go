@@ -11,9 +11,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/go-git/go-git/v6/plumbing"
-	"github.com/go-git/go-git/v6/plumbing/format/idxfile"
-	"github.com/go-git/go-git/v6/plumbing/hash"
+	"github.com/ganigeorgiev/go-git/v6/plumbing"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/format/idxfile"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/hash"
 )
 
 // errorAfterReader wraps a reader and returns an error after n bytes have been read.

@@ -11,7 +11,7 @@ import (
 	"github.com/go-git/go-billy/v6/util"
 	"github.com/stretchr/testify/require"
 
-	"github.com/go-git/go-git/v6/plumbing/object"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/object"
 )
 
 // setupBenchmarkRepo creates a test repository with the specified number of files.

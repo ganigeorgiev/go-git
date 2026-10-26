@@ -16,19 +16,19 @@ import (
 
 	"github.com/go-git/go-billy/v6"
 
-	"github.com/go-git/go-git/v6/config"
-	giturl "github.com/go-git/go-git/v6/internal/url"
-	"github.com/go-git/go-git/v6/plumbing"
-	"github.com/go-git/go-git/v6/plumbing/filemode"
-	"github.com/go-git/go-git/v6/plumbing/format/gitignore"
-	"github.com/go-git/go-git/v6/plumbing/format/index"
-	"github.com/go-git/go-git/v6/plumbing/object"
-	"github.com/go-git/go-git/v6/plumbing/storer"
-	"github.com/go-git/go-git/v6/utils/convert"
-	"github.com/go-git/go-git/v6/utils/ioutil"
-	"github.com/go-git/go-git/v6/utils/merkletrie"
-	"github.com/go-git/go-git/v6/utils/sync"
-	"github.com/go-git/go-git/v6/utils/trace"
+	"github.com/ganigeorgiev/go-git/v6/config"
+	giturl "github.com/ganigeorgiev/go-git/v6/internal/url"
+	"github.com/ganigeorgiev/go-git/v6/plumbing"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/filemode"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/format/gitignore"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/format/index"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/object"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/storer"
+	"github.com/ganigeorgiev/go-git/v6/utils/convert"
+	"github.com/ganigeorgiev/go-git/v6/utils/ioutil"
+	"github.com/ganigeorgiev/go-git/v6/utils/merkletrie"
+	"github.com/ganigeorgiev/go-git/v6/utils/sync"
+	"github.com/ganigeorgiev/go-git/v6/utils/trace"
 )
 
 // Worktree errors.

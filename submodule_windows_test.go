@@ -8,8 +8,8 @@ import (
 	"github.com/go-git/go-billy/v6/memfs"
 	"github.com/stretchr/testify/require"
 
-	"github.com/go-git/go-git/v6/config"
-	"github.com/go-git/go-git/v6/storage/memory"
+	"github.com/ganigeorgiev/go-git/v6/config"
+	"github.com/ganigeorgiev/go-git/v6/storage/memory"
 )
 
 // TestSubmoduleWindowsAbsoluteURLNotJoined verifies that absolute

@@ -11,14 +11,14 @@ import (
 	"net/url"
 	"strings"
 
-	internal "github.com/go-git/go-git/v6/internal/transport"
-	"github.com/go-git/go-git/v6/plumbing/format/pktline"
-	"github.com/go-git/go-git/v6/plumbing/protocol"
-	"github.com/go-git/go-git/v6/plumbing/protocol/capability"
-	"github.com/go-git/go-git/v6/plumbing/protocol/packp"
-	transport "github.com/go-git/go-git/v6/plumbing/transport"
-	"github.com/go-git/go-git/v6/storage"
-	"github.com/go-git/go-git/v6/utils/ioutil"
+	internal "github.com/ganigeorgiev/go-git/v6/internal/transport"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/format/pktline"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/protocol"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/protocol/capability"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/protocol/packp"
+	transport "github.com/ganigeorgiev/go-git/v6/plumbing/transport"
+	"github.com/ganigeorgiev/go-git/v6/storage"
+	"github.com/ganigeorgiev/go-git/v6/utils/ioutil"
 )
 
 // maxReceivePackContentLength matches Git v2.54.0's default HTTP push framing.

@@ -7,8 +7,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/go-git/go-git/v6/plumbing/format/pktline"
-	"github.com/go-git/go-git/v6/plumbing/protocol"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/format/pktline"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/protocol"
 )
 
 func TestDiscoverVersion(t *testing.T) {

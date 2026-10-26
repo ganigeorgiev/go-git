@@ -5,7 +5,7 @@ import (
 	"io"
 	"time"
 
-	"github.com/go-git/go-git/v6/plumbing"
+	"github.com/ganigeorgiev/go-git/v6/plumbing"
 )
 
 // ErrStop is used to stop a ForEach function in an Iter

@@ -14,9 +14,9 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/go-git/go-git/v6/plumbing"
-	"github.com/go-git/go-git/v6/plumbing/hash"
-	"github.com/go-git/go-git/v6/x/fdpool"
+	"github.com/ganigeorgiev/go-git/v6/plumbing"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/hash"
+	"github.com/ganigeorgiev/go-git/v6/x/fdpool"
 )
 
 type LazyIndexSuite struct {

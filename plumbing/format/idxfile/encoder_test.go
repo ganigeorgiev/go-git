@@ -10,8 +10,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	. "github.com/go-git/go-git/v6/plumbing/format/idxfile"
-	"github.com/go-git/go-git/v6/plumbing/hash"
+	. "github.com/ganigeorgiev/go-git/v6/plumbing/format/idxfile"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/hash"
 )
 
 func TestEncode(t *testing.T) {

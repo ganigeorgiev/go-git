@@ -8,7 +8,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	transport "github.com/go-git/go-git/v6/plumbing/transport"
+	transport "github.com/ganigeorgiev/go-git/v6/plumbing/transport"
 )
 
 // The discovery request is assembled from the base URL's scheme, host and path

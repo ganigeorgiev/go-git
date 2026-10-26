@@ -9,9 +9,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/go-git/go-git/v6/utils/merkletrie"
-	"github.com/go-git/go-git/v6/utils/merkletrie/internal/fsnoder"
-	"github.com/go-git/go-git/v6/utils/merkletrie/noder"
+	"github.com/ganigeorgiev/go-git/v6/utils/merkletrie"
+	"github.com/ganigeorgiev/go-git/v6/utils/merkletrie/internal/fsnoder"
+	"github.com/ganigeorgiev/go-git/v6/utils/merkletrie/noder"
 )
 
 type IterSuite struct {

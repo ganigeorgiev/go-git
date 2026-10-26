@@ -1,6 +1,6 @@
 package cache
 
-import "github.com/go-git/go-git/v6/plumbing"
+import "github.com/ganigeorgiev/go-git/v6/plumbing"
 
 // File size units.
 const (

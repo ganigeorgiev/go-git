@@ -10,7 +10,7 @@ import (
 	"github.com/go-git/go-billy/v6/util"
 	"github.com/stretchr/testify/require"
 
-	"github.com/go-git/go-git/v6/plumbing/object"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/object"
 )
 
 // BenchmarkCloneLargeRepo benchmarks cloning a repository with many files

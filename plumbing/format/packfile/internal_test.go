@@ -14,11 +14,11 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/go-git/go-git/v6/plumbing"
-	format "github.com/go-git/go-git/v6/plumbing/format/config"
-	"github.com/go-git/go-git/v6/plumbing/format/idxfile"
-	packutil "github.com/go-git/go-git/v6/plumbing/format/packfile/util"
-	gogitbinary "github.com/go-git/go-git/v6/utils/binary"
+	"github.com/ganigeorgiev/go-git/v6/plumbing"
+	format "github.com/ganigeorgiev/go-git/v6/plumbing/format/config"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/format/idxfile"
+	packutil "github.com/ganigeorgiev/go-git/v6/plumbing/format/packfile/util"
+	gogitbinary "github.com/ganigeorgiev/go-git/v6/utils/binary"
 )
 
 func TestParserRejectsDeepDeltaChain(t *testing.T) {

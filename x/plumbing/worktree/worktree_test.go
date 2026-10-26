@@ -18,14 +18,14 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/go-git/go-git/v6"
-	"github.com/go-git/go-git/v6/config"
-	"github.com/go-git/go-git/v6/plumbing"
-	"github.com/go-git/go-git/v6/plumbing/cache"
-	formatcfg "github.com/go-git/go-git/v6/plumbing/format/config"
-	"github.com/go-git/go-git/v6/plumbing/object"
-	"github.com/go-git/go-git/v6/storage/filesystem"
-	"github.com/go-git/go-git/v6/storage/filesystem/dotgit"
+	"github.com/ganigeorgiev/go-git/v6"
+	"github.com/ganigeorgiev/go-git/v6/config"
+	"github.com/ganigeorgiev/go-git/v6/plumbing"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/cache"
+	formatcfg "github.com/ganigeorgiev/go-git/v6/plumbing/format/config"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/object"
+	"github.com/ganigeorgiev/go-git/v6/storage/filesystem"
+	"github.com/ganigeorgiev/go-git/v6/storage/filesystem/dotgit"
 )
 
 func TestAdd(t *testing.T) {

@@ -12,12 +12,12 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/go-git/go-git/v6/plumbing"
-	formatcfg "github.com/go-git/go-git/v6/plumbing/format/config"
-	"github.com/go-git/go-git/v6/plumbing/format/pktline"
-	"github.com/go-git/go-git/v6/plumbing/protocol/capability"
-	"github.com/go-git/go-git/v6/plumbing/protocol/packp"
-	"github.com/go-git/go-git/v6/storage/memory"
+	"github.com/ganigeorgiev/go-git/v6/plumbing"
+	formatcfg "github.com/ganigeorgiev/go-git/v6/plumbing/format/config"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/format/pktline"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/protocol/capability"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/protocol/packp"
+	"github.com/ganigeorgiev/go-git/v6/storage/memory"
 )
 
 func TestNegotiatePackCloseBehavior(t *testing.T) {

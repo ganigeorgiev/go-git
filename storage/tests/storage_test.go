@@ -11,15 +11,15 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/go-git/go-git/v6/config"
-	"github.com/go-git/go-git/v6/plumbing"
-	"github.com/go-git/go-git/v6/plumbing/cache"
-	"github.com/go-git/go-git/v6/plumbing/format/index"
-	"github.com/go-git/go-git/v6/plumbing/storer"
-	"github.com/go-git/go-git/v6/storage"
-	"github.com/go-git/go-git/v6/storage/filesystem"
-	"github.com/go-git/go-git/v6/storage/memory"
-	"github.com/go-git/go-git/v6/storage/transactional"
+	"github.com/ganigeorgiev/go-git/v6/config"
+	"github.com/ganigeorgiev/go-git/v6/plumbing"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/cache"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/format/index"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/storer"
+	"github.com/ganigeorgiev/go-git/v6/storage"
+	"github.com/ganigeorgiev/go-git/v6/storage/filesystem"
+	"github.com/ganigeorgiev/go-git/v6/storage/memory"
+	"github.com/ganigeorgiev/go-git/v6/storage/transactional"
 )
 
 type Storer interface {

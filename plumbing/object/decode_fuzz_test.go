@@ -3,8 +3,8 @@ package object
 import (
 	"testing"
 
-	"github.com/go-git/go-git/v6/plumbing"
-	"github.com/go-git/go-git/v6/plumbing/filemode"
+	"github.com/ganigeorgiev/go-git/v6/plumbing"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/filemode"
 )
 
 func FuzzCommitDecode(f *testing.F) {

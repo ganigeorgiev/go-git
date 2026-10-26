@@ -6,9 +6,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/go-git/go-git/v6/plumbing"
-	formatcfg "github.com/go-git/go-git/v6/plumbing/format/config"
-	"github.com/go-git/go-git/v6/plumbing/object"
+	"github.com/ganigeorgiev/go-git/v6/plumbing"
+	formatcfg "github.com/ganigeorgiev/go-git/v6/plumbing/format/config"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/object"
 )
 
 func forEachFormat(t *testing.T, fnT func(*testing.T, formatcfg.ObjectFormat)) {

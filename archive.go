@@ -5,7 +5,7 @@ import (
 	"errors"
 	"io"
 
-	"github.com/go-git/go-git/v6/plumbing/transport"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/transport"
 )
 
 // ArchiveRemote creates an archive from a remote repository.

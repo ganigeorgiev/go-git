@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/go-git/go-git/v6/plumbing"
+	"github.com/ganigeorgiev/go-git/v6/plumbing"
 )
 
 func makePack(t *testing.T, version, count uint32, hash plumbing.Hash, extra int) []byte {

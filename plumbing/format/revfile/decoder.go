@@ -10,8 +10,8 @@ import (
 	"hash"
 	"io"
 
-	"github.com/go-git/go-git/v6/plumbing"
-	"github.com/go-git/go-git/v6/utils/binary"
+	"github.com/ganigeorgiev/go-git/v6/plumbing"
+	"github.com/ganigeorgiev/go-git/v6/utils/binary"
 )
 
 var (

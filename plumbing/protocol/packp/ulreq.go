@@ -3,8 +3,8 @@ package packp
 import (
 	"time"
 
-	"github.com/go-git/go-git/v6/plumbing"
-	"github.com/go-git/go-git/v6/plumbing/protocol/capability"
+	"github.com/ganigeorgiev/go-git/v6/plumbing"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/protocol/capability"
 )
 
 // UploadRequest values represent the information transmitted on a

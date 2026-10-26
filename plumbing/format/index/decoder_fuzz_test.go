@@ -8,7 +8,7 @@ import (
 
 	fixtures "github.com/go-git/go-git-fixtures/v6"
 
-	gogithash "github.com/go-git/go-git/v6/plumbing/hash"
+	gogithash "github.com/ganigeorgiev/go-git/v6/plumbing/hash"
 )
 
 func FuzzIndexDecoder(f *testing.F) {

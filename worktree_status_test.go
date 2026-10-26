@@ -14,10 +14,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/go-git/go-git/v6/internal/test/gitenv"
-	"github.com/go-git/go-git/v6/plumbing/cache"
-	"github.com/go-git/go-git/v6/plumbing/object"
-	"github.com/go-git/go-git/v6/storage/filesystem"
+	"github.com/ganigeorgiev/go-git/v6/internal/test/gitenv"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/cache"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/object"
+	"github.com/ganigeorgiev/go-git/v6/storage/filesystem"
 )
 
 // For additional context: #1159.

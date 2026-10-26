@@ -9,7 +9,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/go-git/go-git/v6/plumbing"
+	"github.com/ganigeorgiev/go-git/v6/plumbing"
 )
 
 // Signature represents an author or committer identity with a timestamp.

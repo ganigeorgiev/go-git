@@ -9,13 +9,13 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/go-git/go-git/v6/plumbing"
-	"github.com/go-git/go-git/v6/plumbing/format/pktline"
-	"github.com/go-git/go-git/v6/plumbing/protocol"
-	"github.com/go-git/go-git/v6/plumbing/protocol/capability"
-	"github.com/go-git/go-git/v6/plumbing/protocol/packp"
-	"github.com/go-git/go-git/v6/storage"
-	"github.com/go-git/go-git/v6/utils/ioutil"
+	"github.com/ganigeorgiev/go-git/v6/plumbing"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/format/pktline"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/protocol"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/protocol/capability"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/protocol/packp"
+	"github.com/ganigeorgiev/go-git/v6/storage"
+	"github.com/ganigeorgiev/go-git/v6/utils/ioutil"
 )
 
 func newV2Session(t testing.TB, serve func(serverConn net.Conn) error) *StreamSession {

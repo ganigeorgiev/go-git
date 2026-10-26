@@ -11,7 +11,7 @@ import (
 	"github.com/go-git/go-billy/v6"
 	"github.com/go-git/go-billy/v6/osfs"
 
-	"github.com/go-git/go-git/v6/config"
+	"github.com/ganigeorgiev/go-git/v6/config"
 )
 
 // Git environment variables that override config file paths.

@@ -7,7 +7,7 @@ import (
 	"github.com/sergi/go-diff/diffmatchpatch"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/go-git/go-git/v6/utils/diff"
+	"github.com/ganigeorgiev/go-git/v6/utils/diff"
 )
 
 type suiteCommon struct {

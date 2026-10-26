@@ -4,9 +4,9 @@
 package transport
 
 import (
-	"github.com/go-git/go-git/v6/plumbing"
-	"github.com/go-git/go-git/v6/plumbing/protocol/packp"
-	"github.com/go-git/go-git/v6/plumbing/protocol/packp/sideband"
+	"github.com/ganigeorgiev/go-git/v6/plumbing"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/protocol/packp"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/protocol/packp/sideband"
 )
 
 // FetchRequest describes a fetch. It is shared by the v0/v1 and v2 fetch paths;

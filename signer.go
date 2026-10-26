@@ -4,7 +4,7 @@ import (
 	"context"
 	"io"
 
-	"github.com/go-git/go-git/v6/plumbing"
+	"github.com/ganigeorgiev/go-git/v6/plumbing"
 )
 
 // signableObject is an object which can be signed.

@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/go-git/go-git/v6/plumbing/format/pktline"
-	"github.com/go-git/go-git/v6/plumbing/protocol"
-	"github.com/go-git/go-git/v6/plumbing/protocol/capability"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/format/pktline"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/protocol"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/protocol/capability"
 )
 
 // CapabilityAdv represents a protocol v2 server capability advertisement.

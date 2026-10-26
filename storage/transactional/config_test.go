@@ -5,8 +5,8 @@ import (
 
 	"github.com/stretchr/testify/suite"
 
-	"github.com/go-git/go-git/v6/config"
-	"github.com/go-git/go-git/v6/storage/memory"
+	"github.com/ganigeorgiev/go-git/v6/config"
+	"github.com/ganigeorgiev/go-git/v6/storage/memory"
 )
 
 func TestConfigSuite(t *testing.T) {

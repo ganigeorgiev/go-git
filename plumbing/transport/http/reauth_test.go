@@ -15,7 +15,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	transport "github.com/go-git/go-git/v6/plumbing/transport"
+	transport "github.com/ganigeorgiev/go-git/v6/plumbing/transport"
 )
 
 // A crossing explains an authentication failure and nothing else. Annotating a

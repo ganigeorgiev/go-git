@@ -8,7 +8,7 @@ import (
 	"sync/atomic"
 	"testing"
 
-	"github.com/go-git/go-git/v6/internal/packhandle"
+	"github.com/ganigeorgiev/go-git/v6/internal/packhandle"
 )
 
 func TestIndex_HappyPath(t *testing.T) {

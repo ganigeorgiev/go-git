@@ -1,9 +1,9 @@
 package transactional
 
 import (
-	"github.com/go-git/go-git/v6/plumbing"
-	"github.com/go-git/go-git/v6/plumbing/format/reflog"
-	"github.com/go-git/go-git/v6/plumbing/storer"
+	"github.com/ganigeorgiev/go-git/v6/plumbing"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/format/reflog"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/storer"
 )
 
 // ReflogStorage implements the storer.ReflogStorer for the transactional package.

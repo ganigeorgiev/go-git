@@ -10,11 +10,11 @@ import (
 	fixtures "github.com/go-git/go-git-fixtures/v6"
 	"github.com/stretchr/testify/require"
 
-	"github.com/go-git/go-git/v6/plumbing"
-	"github.com/go-git/go-git/v6/plumbing/cache"
-	"github.com/go-git/go-git/v6/plumbing/format/idxfile"
-	"github.com/go-git/go-git/v6/plumbing/hash"
-	"github.com/go-git/go-git/v6/storage/filesystem/dotgit"
+	"github.com/ganigeorgiev/go-git/v6/plumbing"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/cache"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/format/idxfile"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/hash"
+	"github.com/ganigeorgiev/go-git/v6/storage/filesystem/dotgit"
 )
 
 func TestPackfileIter_SeenSkips(t *testing.T) {

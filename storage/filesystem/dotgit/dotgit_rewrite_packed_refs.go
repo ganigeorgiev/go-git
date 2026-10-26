@@ -8,7 +8,7 @@ import (
 
 	"github.com/go-git/go-billy/v6"
 
-	"github.com/go-git/go-git/v6/utils/ioutil"
+	"github.com/ganigeorgiev/go-git/v6/utils/ioutil"
 )
 
 func (d *DotGit) openAndLockPackedRefsMode() int {

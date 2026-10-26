@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/suite"
 
-	"github.com/go-git/go-git/v6/plumbing"
+	"github.com/ganigeorgiev/go-git/v6/plumbing"
 )
 
 type BranchSuite struct {
@@ -90,7 +90,7 @@ func (b *BranchSuite) TestUnmarshal() {
 }
 
 func (b *BranchSuite) TestValidateMergeWithPullRef() {
-	// Regression test for https://github.com/go-git/go-git/issues/1871
+	// Regression test for https://github.com/ganigeorgiev/go-git/issues/1871
 	// branch.merge should allow refs/pull/<ID>/head (used by GitHub/GitLab PRs)
 	prBranch := Branch{
 		Name:   "contributor/fix-9999",

@@ -20,11 +20,11 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/go-git/go-git/v6/internal/test/gitenv"
-	"github.com/go-git/go-git/v6/internal/transport/test"
-	"github.com/go-git/go-git/v6/plumbing/format/pktline"
-	"github.com/go-git/go-git/v6/plumbing/protocol"
-	"github.com/go-git/go-git/v6/plumbing/transport"
+	"github.com/ganigeorgiev/go-git/v6/internal/test/gitenv"
+	"github.com/ganigeorgiev/go-git/v6/internal/transport/test"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/format/pktline"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/protocol"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/transport"
 )
 
 func freePort(t *testing.T) int {

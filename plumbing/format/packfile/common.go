@@ -6,11 +6,11 @@ import (
 	"io"
 	"time"
 
-	"github.com/go-git/go-git/v6/config"
-	formatcfg "github.com/go-git/go-git/v6/plumbing/format/config"
-	"github.com/go-git/go-git/v6/plumbing/storer"
-	"github.com/go-git/go-git/v6/utils/ioutil"
-	"github.com/go-git/go-git/v6/utils/trace"
+	"github.com/ganigeorgiev/go-git/v6/config"
+	formatcfg "github.com/ganigeorgiev/go-git/v6/plumbing/format/config"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/storer"
+	"github.com/ganigeorgiev/go-git/v6/utils/ioutil"
+	"github.com/ganigeorgiev/go-git/v6/utils/trace"
 )
 
 var signature = []byte{'P', 'A', 'C', 'K'}

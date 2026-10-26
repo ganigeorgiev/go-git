@@ -17,13 +17,13 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/go-git/go-git/v6/internal/pathutil"
-	"github.com/go-git/go-git/v6/internal/test/gitenv"
-	"github.com/go-git/go-git/v6/plumbing"
-	"github.com/go-git/go-git/v6/plumbing/filemode"
-	"github.com/go-git/go-git/v6/plumbing/object"
-	"github.com/go-git/go-git/v6/plumbing/storer"
-	"github.com/go-git/go-git/v6/storage/memory"
+	"github.com/ganigeorgiev/go-git/v6/internal/pathutil"
+	"github.com/ganigeorgiev/go-git/v6/internal/test/gitenv"
+	"github.com/ganigeorgiev/go-git/v6/plumbing"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/filemode"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/object"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/storer"
+	"github.com/ganigeorgiev/go-git/v6/storage/memory"
 )
 
 func TestValidPath(t *testing.T) {

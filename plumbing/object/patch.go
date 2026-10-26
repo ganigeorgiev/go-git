@@ -11,10 +11,10 @@ import (
 
 	dmp "github.com/sergi/go-diff/diffmatchpatch"
 
-	"github.com/go-git/go-git/v6/plumbing"
-	"github.com/go-git/go-git/v6/plumbing/filemode"
-	fdiff "github.com/go-git/go-git/v6/plumbing/format/diff"
-	"github.com/go-git/go-git/v6/utils/diff"
+	"github.com/ganigeorgiev/go-git/v6/plumbing"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/filemode"
+	fdiff "github.com/ganigeorgiev/go-git/v6/plumbing/format/diff"
+	"github.com/ganigeorgiev/go-git/v6/utils/diff"
 )
 
 // ErrCanceled is returned when the operation is canceled.

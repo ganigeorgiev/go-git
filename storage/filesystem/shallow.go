@@ -4,10 +4,10 @@ import (
 	"bufio"
 	"fmt"
 
-	"github.com/go-git/go-git/v6/plumbing"
-	formatcfg "github.com/go-git/go-git/v6/plumbing/format/config"
-	"github.com/go-git/go-git/v6/storage/filesystem/dotgit"
-	"github.com/go-git/go-git/v6/utils/ioutil"
+	"github.com/ganigeorgiev/go-git/v6/plumbing"
+	formatcfg "github.com/ganigeorgiev/go-git/v6/plumbing/format/config"
+	"github.com/ganigeorgiev/go-git/v6/storage/filesystem/dotgit"
+	"github.com/ganigeorgiev/go-git/v6/utils/ioutil"
 )
 
 // ShallowStorage where the shallow commits are stored, an internal to

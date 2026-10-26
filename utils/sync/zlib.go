@@ -6,9 +6,9 @@ import (
 	"io"
 	"sync"
 
-	"github.com/go-git/go-git/v6/utils/trace"
-	"github.com/go-git/go-git/v6/x/plugin"
-	"github.com/go-git/go-git/v6/x/plugin/zlib"
+	"github.com/ganigeorgiev/go-git/v6/utils/trace"
+	"github.com/ganigeorgiev/go-git/v6/x/plugin"
+	"github.com/ganigeorgiev/go-git/v6/x/plugin/zlib"
 )
 
 // ZlibReader is an alias of plugin.ZlibReader.

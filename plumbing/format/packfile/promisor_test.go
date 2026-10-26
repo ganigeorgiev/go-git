@@ -8,8 +8,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/go-git/go-git/v6/plumbing/storer"
-	"github.com/go-git/go-git/v6/storage/memory"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/storer"
+	"github.com/ganigeorgiev/go-git/v6/storage/memory"
 )
 
 // packWriterOnly writes packfiles but cannot record them as promisor packs —

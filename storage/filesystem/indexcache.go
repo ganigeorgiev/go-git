@@ -4,7 +4,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/go-git/go-git/v6/plumbing/format/index"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/format/index"
 )
 
 // IndexCache is a cache for the git index. Implementations must be safe

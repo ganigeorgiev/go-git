@@ -3,7 +3,7 @@
 package config
 
 import (
-	"github.com/go-git/go-git/v6/config"
+	"github.com/ganigeorgiev/go-git/v6/config"
 )
 
 // NewEmpty returns a ConfigSource that yields empty configs for both scopes.

@@ -18,12 +18,12 @@ import (
 	"github.com/go-git/go-billy/v6/util"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/go-git/go-git/v6/plumbing"
-	"github.com/go-git/go-git/v6/plumbing/filemode"
-	format "github.com/go-git/go-git/v6/plumbing/format/config"
-	"github.com/go-git/go-git/v6/plumbing/format/index"
-	"github.com/go-git/go-git/v6/utils/merkletrie"
-	"github.com/go-git/go-git/v6/utils/merkletrie/noder"
+	"github.com/ganigeorgiev/go-git/v6/plumbing"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/filemode"
+	format "github.com/ganigeorgiev/go-git/v6/plumbing/format/config"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/format/index"
+	"github.com/ganigeorgiev/go-git/v6/utils/merkletrie"
+	"github.com/ganigeorgiev/go-git/v6/utils/merkletrie/noder"
 )
 
 type NoderSuite struct {

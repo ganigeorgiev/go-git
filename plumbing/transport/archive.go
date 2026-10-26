@@ -7,9 +7,9 @@ import (
 	"io"
 	"strings"
 
-	"github.com/go-git/go-git/v6/plumbing/format/pktline"
-	"github.com/go-git/go-git/v6/plumbing/protocol/packp/sideband"
-	"github.com/go-git/go-git/v6/utils/ioutil"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/format/pktline"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/protocol/packp/sideband"
+	"github.com/ganigeorgiev/go-git/v6/utils/ioutil"
 )
 
 // ArchiveRequest describes a git-upload-archive request.

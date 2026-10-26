@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/go-git/go-git/v6"
-	. "github.com/go-git/go-git/v6/_examples"
-	"github.com/go-git/go-git/v6/plumbing"
-	"github.com/go-git/go-git/v6/plumbing/object"
+	"github.com/ganigeorgiev/go-git/v6"
+	. "github.com/ganigeorgiev/go-git/v6/_examples"
+	"github.com/ganigeorgiev/go-git/v6/plumbing"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/object"
 )
 
 // Basic example of how to list tags.

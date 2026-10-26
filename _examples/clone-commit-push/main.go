@@ -6,11 +6,11 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/go-git/go-git/v6"
-	. "github.com/go-git/go-git/v6/_examples"
-	"github.com/go-git/go-git/v6/config"
-	"github.com/go-git/go-git/v6/plumbing"
-	"github.com/go-git/go-git/v6/plumbing/object"
+	"github.com/ganigeorgiev/go-git/v6"
+	. "github.com/ganigeorgiev/go-git/v6/_examples"
+	"github.com/ganigeorgiev/go-git/v6/config"
+	"github.com/ganigeorgiev/go-git/v6/plumbing"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/object"
 )
 
 // Example of an end-to-end workflow:

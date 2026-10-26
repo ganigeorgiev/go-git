@@ -14,7 +14,7 @@ import (
 	gossh "golang.org/x/crypto/ssh"
 	"golang.org/x/crypto/ssh/testdata"
 
-	"github.com/go-git/go-git/v6/plumbing/transport"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/transport"
 )
 
 func TestNewPublicKeysWithEncryptedPEM(t *testing.T) {

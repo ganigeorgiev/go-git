@@ -9,10 +9,10 @@ import (
 	"github.com/go-git/go-billy/v6/util"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/go-git/go-git/v6"
-	"github.com/go-git/go-git/v6/plumbing"
-	"github.com/go-git/go-git/v6/plumbing/object"
-	"github.com/go-git/go-git/v6/storage/memory"
+	"github.com/ganigeorgiev/go-git/v6"
+	"github.com/ganigeorgiev/go-git/v6/plumbing"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/object"
+	"github.com/ganigeorgiev/go-git/v6/storage/memory"
 )
 
 type CommitStatsSuite struct {

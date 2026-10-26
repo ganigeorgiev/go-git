@@ -10,13 +10,13 @@ import (
 	fixtures "github.com/go-git/go-git-fixtures/v6"
 	"github.com/stretchr/testify/require"
 
-	"github.com/go-git/go-git/v6/config"
-	"github.com/go-git/go-git/v6/plumbing"
-	"github.com/go-git/go-git/v6/plumbing/cache"
-	"github.com/go-git/go-git/v6/plumbing/format/index"
-	"github.com/go-git/go-git/v6/storage/filesystem"
-	"github.com/go-git/go-git/v6/storage/filesystem/dotgit"
-	"github.com/go-git/go-git/v6/storage/memory"
+	"github.com/ganigeorgiev/go-git/v6/config"
+	"github.com/ganigeorgiev/go-git/v6/plumbing"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/cache"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/format/index"
+	"github.com/ganigeorgiev/go-git/v6/storage/filesystem"
+	"github.com/ganigeorgiev/go-git/v6/storage/filesystem/dotgit"
+	"github.com/ganigeorgiev/go-git/v6/storage/memory"
 )
 
 func TestSubmoduleInit(t *testing.T) {

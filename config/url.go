@@ -4,7 +4,7 @@ import (
 	"errors"
 	"strings"
 
-	format "github.com/go-git/go-git/v6/plumbing/format/config"
+	format "github.com/ganigeorgiev/go-git/v6/plumbing/format/config"
 )
 
 var errURLEmptyInsteadOf = errors.New("url config: empty insteadOf")

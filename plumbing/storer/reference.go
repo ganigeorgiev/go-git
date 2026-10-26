@@ -4,7 +4,7 @@ import (
 	"errors"
 	"io"
 
-	"github.com/go-git/go-git/v6/plumbing"
+	"github.com/ganigeorgiev/go-git/v6/plumbing"
 )
 
 // MaxResolveRecursion is the maximum number of recursions allowed when resolving references.

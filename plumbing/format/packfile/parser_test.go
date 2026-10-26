@@ -18,17 +18,17 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/go-git/go-git/v6"
-	"github.com/go-git/go-git/v6/internal/fixtureutil"
-	"github.com/go-git/go-git/v6/plumbing"
-	"github.com/go-git/go-git/v6/plumbing/cache"
-	"github.com/go-git/go-git/v6/plumbing/format/config"
-	"github.com/go-git/go-git/v6/plumbing/format/packfile"
-	packutil "github.com/go-git/go-git/v6/plumbing/format/packfile/util"
-	"github.com/go-git/go-git/v6/plumbing/storer"
-	"github.com/go-git/go-git/v6/storage/filesystem"
-	"github.com/go-git/go-git/v6/storage/memory"
-	gogitbinary "github.com/go-git/go-git/v6/utils/binary"
+	"github.com/ganigeorgiev/go-git/v6"
+	"github.com/ganigeorgiev/go-git/v6/internal/fixtureutil"
+	"github.com/ganigeorgiev/go-git/v6/plumbing"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/cache"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/format/config"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/format/packfile"
+	packutil "github.com/ganigeorgiev/go-git/v6/plumbing/format/packfile/util"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/storer"
+	"github.com/ganigeorgiev/go-git/v6/storage/filesystem"
+	"github.com/ganigeorgiev/go-git/v6/storage/memory"
+	gogitbinary "github.com/ganigeorgiev/go-git/v6/utils/binary"
 )
 
 func TestParserHashes(t *testing.T) {

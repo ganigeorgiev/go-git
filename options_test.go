@@ -6,10 +6,10 @@ import (
 
 	"github.com/stretchr/testify/suite"
 
-	"github.com/go-git/go-git/v6/config"
-	testconfig "github.com/go-git/go-git/v6/internal/test/config"
-	"github.com/go-git/go-git/v6/plumbing"
-	"github.com/go-git/go-git/v6/plumbing/object"
+	"github.com/ganigeorgiev/go-git/v6/config"
+	testconfig "github.com/ganigeorgiev/go-git/v6/internal/test/config"
+	"github.com/ganigeorgiev/go-git/v6/plumbing"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/object"
 )
 
 type OptionsSuite struct {
@@ -105,7 +105,7 @@ func (s *OptionsSuite) TestCreateTagOptionsLoadGlobal() {
 // paths in CloneOptions.URL are resolved to absolute paths by Validate, so
 // that the billy chroot-based FilesystemLoader never sees a ".." component.
 //
-// Fixes: https://github.com/go-git/go-git/issues/1723
+// Fixes: https://github.com/ganigeorgiev/go-git/issues/1723
 func (s *OptionsSuite) TestCloneOptionsValidate_RelativeDotDot() {
 	for _, input := range []string{"../../", "../foo", ".."} {
 		o := &CloneOptions{URL: input}

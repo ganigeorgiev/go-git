@@ -6,7 +6,7 @@ import (
 	"io"
 	"testing"
 
-	format "github.com/go-git/go-git/v6/plumbing/format/config"
+	format "github.com/ganigeorgiev/go-git/v6/plumbing/format/config"
 )
 
 func FuzzReader(f *testing.F) {

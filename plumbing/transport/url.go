@@ -3,7 +3,7 @@ package transport
 import (
 	"net/url"
 
-	giturl "github.com/go-git/go-git/v6/internal/url"
+	giturl "github.com/ganigeorgiev/go-git/v6/internal/url"
 )
 
 // ParseURL parses a remote URL string into a *url.URL. It handles:

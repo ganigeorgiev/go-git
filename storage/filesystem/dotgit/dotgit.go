@@ -23,17 +23,17 @@ import (
 
 	"github.com/go-git/go-billy/v6"
 
-	"github.com/go-git/go-git/v6/internal/packhandle"
-	"github.com/go-git/go-git/v6/internal/pathutil"
-	"github.com/go-git/go-git/v6/plumbing"
-	formatcfg "github.com/go-git/go-git/v6/plumbing/format/config"
-	"github.com/go-git/go-git/v6/plumbing/format/idxfile"
-	"github.com/go-git/go-git/v6/plumbing/format/packfile"
-	"github.com/go-git/go-git/v6/plumbing/format/revfile"
-	plumbhash "github.com/go-git/go-git/v6/plumbing/hash"
-	"github.com/go-git/go-git/v6/storage"
-	"github.com/go-git/go-git/v6/utils/ioutil"
-	"github.com/go-git/go-git/v6/x/fdpool"
+	"github.com/ganigeorgiev/go-git/v6/internal/packhandle"
+	"github.com/ganigeorgiev/go-git/v6/internal/pathutil"
+	"github.com/ganigeorgiev/go-git/v6/plumbing"
+	formatcfg "github.com/ganigeorgiev/go-git/v6/plumbing/format/config"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/format/idxfile"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/format/packfile"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/format/revfile"
+	plumbhash "github.com/ganigeorgiev/go-git/v6/plumbing/hash"
+	"github.com/ganigeorgiev/go-git/v6/storage"
+	"github.com/ganigeorgiev/go-git/v6/utils/ioutil"
+	"github.com/ganigeorgiev/go-git/v6/x/fdpool"
 )
 
 const (
@@ -1919,7 +1919,7 @@ func (d *DotGit) AddAlternate(remote string) error {
 
 	if locker, ok := f.(billy.Locker); ok {
 		// locking in windows throws an error, based on comments
-		// https://github.com/go-git/go-git/pull/860#issuecomment-1751823044
+		// https://github.com/ganigeorgiev/go-git/pull/860#issuecomment-1751823044
 		// do not lock on windows platform.
 		if runtime.GOOS != "windows" {
 			if err = locker.Lock(); err != nil {

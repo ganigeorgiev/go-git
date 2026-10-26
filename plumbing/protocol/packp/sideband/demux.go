@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/go-git/go-git/v6/plumbing/format/pktline"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/format/pktline"
 )
 
 // ErrMaxPackedExceeded returned by Read, if the maximum packed size is exceeded

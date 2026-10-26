@@ -12,9 +12,9 @@ import (
 	"log"
 	"net/url"
 
-	"github.com/go-git/go-git/v6/plumbing/protocol/packp"
-	"github.com/go-git/go-git/v6/plumbing/transport"
-	"github.com/go-git/go-git/v6/utils/ioutil"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/protocol/packp"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/transport"
+	"github.com/ganigeorgiev/go-git/v6/utils/ioutil"
 )
 
 // Request describes a Git server-side operation.

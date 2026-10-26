@@ -6,7 +6,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/go-git/go-git/v6/plumbing"
+	"github.com/ganigeorgiev/go-git/v6/plumbing"
 )
 
 // PackMeta is the parsed pack header plus footer hash.

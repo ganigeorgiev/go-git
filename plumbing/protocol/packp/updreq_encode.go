@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/go-git/go-git/v6/plumbing/format/pktline"
-	"github.com/go-git/go-git/v6/plumbing/protocol/capability"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/format/pktline"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/protocol/capability"
 )
 
 // Encode writes the ReferenceUpdateRequest encoding to the stream.

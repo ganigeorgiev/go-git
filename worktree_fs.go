@@ -11,7 +11,7 @@ import (
 
 	"github.com/go-git/go-billy/v6"
 
-	"github.com/go-git/go-git/v6/internal/pathutil"
+	"github.com/ganigeorgiev/go-git/v6/internal/pathutil"
 )
 
 // defaultProtectHFS returns the default value for core.protectHFS

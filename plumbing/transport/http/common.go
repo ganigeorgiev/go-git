@@ -10,8 +10,8 @@ import (
 	"strings"
 	"unicode"
 
-	transport "github.com/go-git/go-git/v6/plumbing/transport"
-	"github.com/go-git/go-git/v6/utils/trace"
+	transport "github.com/ganigeorgiev/go-git/v6/plumbing/transport"
+	"github.com/ganigeorgiev/go-git/v6/utils/trace"
 )
 
 // Err represents an HTTP error response.

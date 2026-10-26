@@ -5,7 +5,7 @@ package dotgit
 import (
 	"github.com/go-git/go-billy/v6"
 
-	"github.com/go-git/go-git/v6/utils/trace"
+	"github.com/ganigeorgiev/go-git/v6/utils/trace"
 )
 
 const readOnly = 0o444

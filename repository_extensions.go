@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/go-git/go-git/v6/config"
-	cfgformat "github.com/go-git/go-git/v6/plumbing/format/config"
-	"github.com/go-git/go-git/v6/storage"
-	xstorage "github.com/go-git/go-git/v6/x/storage"
+	"github.com/ganigeorgiev/go-git/v6/config"
+	cfgformat "github.com/ganigeorgiev/go-git/v6/plumbing/format/config"
+	"github.com/ganigeorgiev/go-git/v6/storage"
+	xstorage "github.com/ganigeorgiev/go-git/v6/x/storage"
 )
 
 var (

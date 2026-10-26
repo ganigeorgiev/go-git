@@ -8,9 +8,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	gogitsync "github.com/go-git/go-git/v6/utils/sync"
-	"github.com/go-git/go-git/v6/x/plugin"
-	xpluginzlib "github.com/go-git/go-git/v6/x/plugin/zlib"
+	gogitsync "github.com/ganigeorgiev/go-git/v6/utils/sync"
+	"github.com/ganigeorgiev/go-git/v6/x/plugin"
+	xpluginzlib "github.com/ganigeorgiev/go-git/v6/x/plugin/zlib"
 )
 
 func TestZlib_WriteRead(t *testing.T) {

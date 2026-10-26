@@ -10,10 +10,10 @@ import (
 	"github.com/go-git/go-billy/v6"
 	"github.com/go-git/go-billy/v6/osfs"
 
-	"github.com/go-git/go-git/v6/plumbing"
-	"github.com/go-git/go-git/v6/plumbing/format/packfile"
-	"github.com/go-git/go-git/v6/storage/filesystem/dotgit"
-	"github.com/go-git/go-git/v6/storage/memory"
+	"github.com/ganigeorgiev/go-git/v6/plumbing"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/format/packfile"
+	"github.com/ganigeorgiev/go-git/v6/storage/filesystem/dotgit"
+	"github.com/ganigeorgiev/go-git/v6/storage/memory"
 )
 
 // makeMultiPackFixture builds a fresh .git directory containing

@@ -3,7 +3,7 @@ package diff
 import (
 	"maps"
 
-	"github.com/go-git/go-git/v6/plumbing/color"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/color"
 )
 
 // A ColorKey is a key into a ColorConfig map and also equal to the key in the

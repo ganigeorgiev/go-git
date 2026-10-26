@@ -1,8 +1,8 @@
 package plugin
 
 import (
-	"github.com/go-git/go-git/v6/config"
-	xconfig "github.com/go-git/go-git/v6/x/plugin/config"
+	"github.com/ganigeorgiev/go-git/v6/config"
+	xconfig "github.com/ganigeorgiev/go-git/v6/x/plugin/config"
 )
 
 func init() {

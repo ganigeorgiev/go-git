@@ -6,7 +6,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/go-git/go-git/v6/plumbing"
+	"github.com/ganigeorgiev/go-git/v6/plumbing"
 )
 
 // ErrUnsupportedObjectFilterType is returned when the filter type is not supported.

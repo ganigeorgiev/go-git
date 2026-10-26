@@ -14,11 +14,11 @@ import (
 	gossh "golang.org/x/crypto/ssh"
 	"golang.org/x/net/proxy"
 
-	"github.com/go-git/go-git/v6/plumbing/transport"
-	"github.com/go-git/go-git/v6/plumbing/transport/file"
-	xgit "github.com/go-git/go-git/v6/plumbing/transport/git"
-	xhttp "github.com/go-git/go-git/v6/plumbing/transport/http"
-	xssh "github.com/go-git/go-git/v6/plumbing/transport/ssh"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/transport"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/transport/file"
+	xgit "github.com/ganigeorgiev/go-git/v6/plumbing/transport/git"
+	xhttp "github.com/ganigeorgiev/go-git/v6/plumbing/transport/http"
+	xssh "github.com/ganigeorgiev/go-git/v6/plumbing/transport/ssh"
 )
 
 // SSHAuth is implemented by SSH authentication types whose ClientConfig
@@ -107,7 +107,7 @@ func WithHTTPAuth(a HTTPAuth) Option {
 
 // CredentialsFunc supplies a credential for an origin the HTTP transport is
 // about to make a request to. It is the type WithHTTPCredentials takes; see
-// [github.com/go-git/go-git/v6/plumbing/transport/http.CredentialsFunc] for
+// [github.com/ganigeorgiev/go-git/v6/plumbing/transport/http.CredentialsFunc] for
 // the contract and the adapters for building one.
 type CredentialsFunc = xhttp.CredentialsFunc
 

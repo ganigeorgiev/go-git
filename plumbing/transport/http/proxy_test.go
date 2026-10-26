@@ -19,8 +19,8 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/go-git/go-git/v6/internal/transport/test"
-	transport "github.com/go-git/go-git/v6/plumbing/transport"
+	"github.com/ganigeorgiev/go-git/v6/internal/transport/test"
+	transport "github.com/ganigeorgiev/go-git/v6/plumbing/transport"
 )
 
 func TestProxySuite(t *testing.T) {

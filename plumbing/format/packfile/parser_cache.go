@@ -3,7 +3,7 @@ package packfile
 import (
 	"slices"
 
-	"github.com/go-git/go-git/v6/plumbing"
+	"github.com/ganigeorgiev/go-git/v6/plumbing"
 )
 
 // maxObjectsPrealloc caps the up-front capacity reserved from the pack's

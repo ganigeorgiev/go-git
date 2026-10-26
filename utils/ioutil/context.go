@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/go-git/go-git/v6/utils/sync"
+	"github.com/ganigeorgiev/go-git/v6/utils/sync"
 )
 
 type ioret struct {

@@ -5,10 +5,10 @@ import (
 
 	_ "unsafe"
 
-	"github.com/go-git/go-git/v6/x/plugin"
+	"github.com/ganigeorgiev/go-git/v6/x/plugin"
 )
 
-//go:linkname resetPluginEntry github.com/go-git/go-git/v6/x/plugin.resetEntry
+//go:linkname resetPluginEntry github.com/ganigeorgiev/go-git/v6/x/plugin.resetEntry
 func resetPluginEntry(name plugin.Name)
 
 // ResetZlibForTest resets the zlib plugin registration and local cached

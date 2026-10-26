@@ -5,7 +5,7 @@ import (
 	"hash"
 	"io"
 
-	"github.com/go-git/go-git/v6/utils/binary"
+	"github.com/ganigeorgiev/go-git/v6/utils/binary"
 )
 
 // encoder is the internal state for encoding an idx file.

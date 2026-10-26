@@ -5,7 +5,7 @@ import (
 
 	"github.com/emirpasic/gods/trees/binaryheap"
 
-	"github.com/go-git/go-git/v6/plumbing"
+	"github.com/ganigeorgiev/go-git/v6/plumbing"
 )
 
 // commitNodeStackable represents a common interface between heaps and stacks

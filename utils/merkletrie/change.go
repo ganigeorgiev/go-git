@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/go-git/go-git/v6/utils/merkletrie/noder"
+	"github.com/ganigeorgiev/go-git/v6/utils/merkletrie/noder"
 )
 
 // ErrEmptyFileName is returned when a tree entry has an empty filename.

@@ -5,9 +5,9 @@ import (
 	"io"
 	"strconv"
 
-	"github.com/go-git/go-git/v6/plumbing"
-	format "github.com/go-git/go-git/v6/plumbing/format/config"
-	"github.com/go-git/go-git/v6/utils/sync"
+	"github.com/ganigeorgiev/go-git/v6/plumbing"
+	format "github.com/ganigeorgiev/go-git/v6/plumbing/format/config"
+	"github.com/ganigeorgiev/go-git/v6/utils/sync"
 )
 
 // ErrOverflow is returned when the declared data length is exceeded.

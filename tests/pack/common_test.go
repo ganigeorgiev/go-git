@@ -8,10 +8,10 @@ import (
 
 	_ "unsafe"
 
-	"github.com/go-git/go-git/v6/plumbing"
-	"github.com/go-git/go-git/v6/plumbing/format/idxfile"
-	"github.com/go-git/go-git/v6/plumbing/format/packfile"
-	"github.com/go-git/go-git/v6/plumbing/hash"
+	"github.com/ganigeorgiev/go-git/v6/plumbing"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/format/idxfile"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/format/packfile"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/hash"
 )
 
 // The existing implementation uses int64, instead of uint64, which is

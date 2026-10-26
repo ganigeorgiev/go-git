@@ -6,10 +6,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/go-git/go-git/v6/config"
-	formatcfg "github.com/go-git/go-git/v6/plumbing/format/config"
-	"github.com/go-git/go-git/v6/plumbing/protocol/packp"
-	"github.com/go-git/go-git/v6/storage/memory"
+	"github.com/ganigeorgiev/go-git/v6/config"
+	formatcfg "github.com/ganigeorgiev/go-git/v6/plumbing/format/config"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/protocol/packp"
+	"github.com/ganigeorgiev/go-git/v6/storage/memory"
 )
 
 // TestRecordPromisor covers the config a filtered fetch has to leave behind.
@@ -28,7 +28,7 @@ func TestRecordPromisor(t *testing.T) {
 		t.Cleanup(func() { _ = r.Close() })
 		_, err = r.CreateRemote(&config.RemoteConfig{
 			Name: DefaultRemoteName,
-			URLs: []string{"https://github.com/go-git/go-git.git"},
+			URLs: []string{"https://github.com/ganigeorgiev/go-git.git"},
 		})
 		require.NoError(t, err)
 		return r
@@ -107,7 +107,7 @@ func TestRecordPromisor(t *testing.T) {
 		// leaves the configured remotes alone in that case too.
 		rem := NewRemote(r.Storer, &config.RemoteConfig{
 			Name: "",
-			URLs: []string{"https://github.com/go-git/go-git.git"},
+			URLs: []string{"https://github.com/ganigeorgiev/go-git.git"},
 		})
 		require.NoError(t, rem.recordPromisor(packp.FilterBlobNone()))
 

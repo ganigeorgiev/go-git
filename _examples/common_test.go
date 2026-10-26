@@ -10,7 +10,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/go-git/go-git/v6/internal/test/gitenv"
+	"github.com/ganigeorgiev/go-git/v6/internal/test/gitenv"
 )
 
 var examplesTest = flag.Bool("examples", false, "run the examples tests")

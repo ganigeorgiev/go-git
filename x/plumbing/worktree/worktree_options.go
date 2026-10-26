@@ -3,7 +3,7 @@ package worktree
 import (
 	"errors"
 
-	"github.com/go-git/go-git/v6/plumbing"
+	"github.com/ganigeorgiev/go-git/v6/plumbing"
 )
 
 type options struct {

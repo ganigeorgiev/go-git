@@ -10,11 +10,11 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/go-git/go-git/v6/plumbing/cache"
-	formatcfg "github.com/go-git/go-git/v6/plumbing/format/config"
-	"github.com/go-git/go-git/v6/plumbing/storer"
-	"github.com/go-git/go-git/v6/storage/filesystem"
-	xstorage "github.com/go-git/go-git/v6/x/storage"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/cache"
+	formatcfg "github.com/ganigeorgiev/go-git/v6/plumbing/format/config"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/storer"
+	"github.com/ganigeorgiev/go-git/v6/storage/filesystem"
+	xstorage "github.com/ganigeorgiev/go-git/v6/x/storage"
 )
 
 func mustDotGit(t testing.TB, f *fixtures.Fixture, opts ...fixtures.Option) billy.Filesystem {

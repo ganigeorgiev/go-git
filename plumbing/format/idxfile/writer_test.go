@@ -10,10 +10,10 @@ import (
 	fixtures "github.com/go-git/go-git-fixtures/v6"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/go-git/go-git/v6/plumbing"
-	"github.com/go-git/go-git/v6/plumbing/format/idxfile"
-	"github.com/go-git/go-git/v6/plumbing/format/packfile"
-	"github.com/go-git/go-git/v6/plumbing/hash"
+	"github.com/ganigeorgiev/go-git/v6/plumbing"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/format/idxfile"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/format/packfile"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/hash"
 )
 
 type WriterSuite struct {

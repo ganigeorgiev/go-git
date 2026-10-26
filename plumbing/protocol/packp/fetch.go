@@ -8,8 +8,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/go-git/go-git/v6/plumbing"
-	"github.com/go-git/go-git/v6/plumbing/format/pktline"
+	"github.com/ganigeorgiev/go-git/v6/plumbing"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/format/pktline"
 )
 
 // maxSectionLines bounds how many entries a single fetch section (want, have,

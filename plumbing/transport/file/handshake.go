@@ -3,7 +3,7 @@ package file
 import (
 	"context"
 
-	transport "github.com/go-git/go-git/v6/plumbing/transport"
+	transport "github.com/ganigeorgiev/go-git/v6/plumbing/transport"
 )
 
 // Handshake implements transport.Transport.

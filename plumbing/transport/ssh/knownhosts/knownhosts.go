@@ -33,7 +33,7 @@ import (
 	"golang.org/x/crypto/ssh"
 	xknownhosts "golang.org/x/crypto/ssh/knownhosts"
 
-	"github.com/go-git/go-git/v6/utils/trace"
+	"github.com/ganigeorgiev/go-git/v6/utils/trace"
 )
 
 // HostKeyDB wraps logic in golang.org/x/crypto/ssh/knownhosts with additional

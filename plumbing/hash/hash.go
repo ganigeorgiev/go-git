@@ -11,7 +11,7 @@ import (
 
 	"github.com/pjbgf/sha1cd"
 
-	format "github.com/go-git/go-git/v6/plumbing/format/config"
+	format "github.com/ganigeorgiev/go-git/v6/plumbing/format/config"
 )
 
 // ErrUnsupportedHashFunction is returned when an unsupported hash function is used.

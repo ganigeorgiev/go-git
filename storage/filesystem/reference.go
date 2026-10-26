@@ -1,9 +1,9 @@
 package filesystem
 
 import (
-	"github.com/go-git/go-git/v6/plumbing"
-	"github.com/go-git/go-git/v6/plumbing/storer"
-	"github.com/go-git/go-git/v6/storage/filesystem/dotgit"
+	"github.com/ganigeorgiev/go-git/v6/plumbing"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/storer"
+	"github.com/ganigeorgiev/go-git/v6/storage/filesystem/dotgit"
 )
 
 // ReferenceStorage implements storer.ReferenceStorer for filesystem storage.

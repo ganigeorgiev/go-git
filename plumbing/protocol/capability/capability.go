@@ -8,7 +8,7 @@ import (
 	"slices"
 	"strings"
 
-	"github.com/go-git/go-git/v6/plumbing/format/pktline"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/format/pktline"
 )
 
 var (

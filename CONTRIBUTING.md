@@ -185,6 +185,6 @@ message should explain *why*.
 
 [discord server]: https://discord.gg/8hrxYEVPE5
 [StackOverflow go-git tag]: https://stackoverflow.com/questions/tagged/go-git
-[Issues]: https://github.com/go-git/go-git/issues
+[Issues]: https://github.com/ganigeorgiev/go-git/issues
 [official git implementation]: https://github.com/git/git
 [golangci-lint]: https://github.com/golangci/golangci-lint

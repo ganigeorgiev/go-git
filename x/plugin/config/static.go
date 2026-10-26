@@ -3,8 +3,8 @@ package config
 import (
 	"fmt"
 
-	"github.com/go-git/go-git/v6/config"
-	formatcfg "github.com/go-git/go-git/v6/plumbing/format/config"
+	"github.com/ganigeorgiev/go-git/v6/config"
+	formatcfg "github.com/ganigeorgiev/go-git/v6/plumbing/format/config"
 )
 
 // NewStatic returns a ConfigSource that always returns read-only

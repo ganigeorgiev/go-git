@@ -8,9 +8,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/go-git/go-git/v6/internal/pathutil"
-	"github.com/go-git/go-git/v6/plumbing"
-	"github.com/go-git/go-git/v6/plumbing/filemode"
+	"github.com/ganigeorgiev/go-git/v6/internal/pathutil"
+	"github.com/ganigeorgiev/go-git/v6/plumbing"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/filemode"
 )
 
 var (

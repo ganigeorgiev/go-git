@@ -4,7 +4,7 @@ import (
 	"os"
 	"testing"
 
-	testconfig "github.com/go-git/go-git/v6/internal/test/config"
+	testconfig "github.com/ganigeorgiev/go-git/v6/internal/test/config"
 )
 
 func TestMain(m *testing.M) {

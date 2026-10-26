@@ -6,8 +6,8 @@ import (
 
 	"github.com/go-git/go-billy/v6"
 
-	"github.com/go-git/go-git/v6/plumbing"
-	"github.com/go-git/go-git/v6/utils/ioutil"
+	"github.com/ganigeorgiev/go-git/v6/plumbing"
+	"github.com/ganigeorgiev/go-git/v6/utils/ioutil"
 )
 
 func (d *DotGit) setRef(fileName, content string, old *plumbing.Reference) (err error) {

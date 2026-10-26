@@ -6,7 +6,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/go-git/go-git/v6/config"
+	"github.com/ganigeorgiev/go-git/v6/config"
 )
 
 func TestEmptyGlobal(t *testing.T) {

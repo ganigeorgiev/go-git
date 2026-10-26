@@ -18,7 +18,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	transport "github.com/go-git/go-git/v6/plumbing/transport"
+	transport "github.com/ganigeorgiev/go-git/v6/plumbing/transport"
 )
 
 // checkError maps a status onto a typed transport error and takes the

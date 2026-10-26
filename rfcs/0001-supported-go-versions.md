@@ -106,4 +106,4 @@ With a shorter support window, the timing of when to bump the minimum Go version
 The policy proposed in this RFC represents the best balance between user compatibility needs, maintainer sustainability, and security responsibility. It aligns go-git with upstream Go support policies, industry best practices, and the realities of open source maintenance.
 
 [improvements to go-billy]: https://github.com/go-git/go-billy/pull/158/files#diff-33ef32bf6c23acb95f5902d7097b7a1d5128ca061167ec0716715b0b9eeaa5f6
-[releases/v5.x]: https://github.com/go-git/go-git/tree/releases/v5.x
+[releases/v5.x]: https://github.com/ganigeorgiev/go-git/tree/releases/v5.x

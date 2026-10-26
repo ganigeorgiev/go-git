@@ -14,12 +14,12 @@ import (
 	"github.com/go-git/go-billy/v6/osfs"
 	"github.com/stretchr/testify/require"
 
-	internalhttp "github.com/go-git/go-git/v6/internal/server/http"
-	"github.com/go-git/go-git/v6/internal/test/gitenv"
-	"github.com/go-git/go-git/v6/plumbing"
-	"github.com/go-git/go-git/v6/plumbing/object"
-	"github.com/go-git/go-git/v6/plumbing/transport"
-	"github.com/go-git/go-git/v6/storage/memory"
+	internalhttp "github.com/ganigeorgiev/go-git/v6/internal/server/http"
+	"github.com/ganigeorgiev/go-git/v6/internal/test/gitenv"
+	"github.com/ganigeorgiev/go-git/v6/plumbing"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/object"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/transport"
+	"github.com/ganigeorgiev/go-git/v6/storage/memory"
 )
 
 // run executes a git (or other) command in the given dir and fails the test on error.

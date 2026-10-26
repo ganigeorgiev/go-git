@@ -5,7 +5,7 @@ package fixtureutil
 import (
 	fixtures "github.com/go-git/go-git-fixtures/v6"
 
-	"github.com/go-git/go-git/v6/plumbing"
+	"github.com/ganigeorgiev/go-git/v6/plumbing"
 )
 
 // Entries converts a fixture's PackfileEntry (hex-string keys) to a map

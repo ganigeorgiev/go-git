@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/go-git/go-git/v6/x/fdpool"
+	"github.com/ganigeorgiev/go-git/v6/x/fdpool"
 )
 
 // BenchmarkSharedFileAcquireRelease measures the cost of one

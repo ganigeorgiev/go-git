@@ -1,8 +1,8 @@
 package packfile
 
 import (
-	"github.com/go-git/go-git/v6/plumbing/format/config"
-	"github.com/go-git/go-git/v6/plumbing/storer"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/format/config"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/storer"
 )
 
 // ParserOption configures a Parser.

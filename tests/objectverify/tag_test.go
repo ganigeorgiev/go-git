@@ -9,7 +9,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/go-git/go-git/v6"
+	"github.com/ganigeorgiev/go-git/v6"
 )
 
 func TestTagVerifyAlignment(t *testing.T) {

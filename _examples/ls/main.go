@@ -12,14 +12,14 @@ import (
 	"github.com/go-git/go-billy/v6"
 	"github.com/go-git/go-billy/v6/osfs"
 
-	"github.com/go-git/go-git/v6"
-	. "github.com/go-git/go-git/v6/_examples"
-	"github.com/go-git/go-git/v6/plumbing"
-	"github.com/go-git/go-git/v6/plumbing/cache"
-	commitgraph_fmt "github.com/go-git/go-git/v6/plumbing/format/commitgraph"
-	"github.com/go-git/go-git/v6/plumbing/object"
-	"github.com/go-git/go-git/v6/plumbing/object/commitgraph"
-	"github.com/go-git/go-git/v6/storage/filesystem"
+	"github.com/ganigeorgiev/go-git/v6"
+	. "github.com/ganigeorgiev/go-git/v6/_examples"
+	"github.com/ganigeorgiev/go-git/v6/plumbing"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/cache"
+	commitgraph_fmt "github.com/ganigeorgiev/go-git/v6/plumbing/format/commitgraph"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/object"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/object/commitgraph"
+	"github.com/ganigeorgiev/go-git/v6/storage/filesystem"
 )
 
 // Example how to resolve a revision into its commit counterpart

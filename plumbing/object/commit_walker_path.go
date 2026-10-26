@@ -5,8 +5,8 @@ import (
 	"io"
 	"slices"
 
-	"github.com/go-git/go-git/v6/plumbing"
-	"github.com/go-git/go-git/v6/plumbing/storer"
+	"github.com/ganigeorgiev/go-git/v6/plumbing"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/storer"
 )
 
 type commitPathIter struct {

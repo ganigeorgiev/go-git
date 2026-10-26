@@ -9,8 +9,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/go-git/go-git/v6/backend"
-	"github.com/go-git/go-git/v6/plumbing/transport"
+	"github.com/ganigeorgiev/go-git/v6/backend"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/transport"
 )
 
 const (

@@ -3,9 +3,9 @@ package server
 import (
 	"io"
 
-	"github.com/go-git/go-git/v6/internal/server/git"
-	"github.com/go-git/go-git/v6/internal/server/http"
-	"github.com/go-git/go-git/v6/plumbing/transport"
+	"github.com/ganigeorgiev/go-git/v6/internal/server/git"
+	"github.com/ganigeorgiev/go-git/v6/internal/server/http"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/transport"
 )
 
 // GitServer represents a git transport server that can be started and stopped.

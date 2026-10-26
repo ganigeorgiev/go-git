@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"os"
 
-	git "github.com/go-git/go-git/v6"
-	. "github.com/go-git/go-git/v6/_examples"
-	"github.com/go-git/go-git/v6/plumbing/client"
-	"github.com/go-git/go-git/v6/plumbing/transport/http"
+	git "github.com/ganigeorgiev/go-git/v6"
+	. "github.com/ganigeorgiev/go-git/v6/_examples"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/client"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/transport/http"
 )
 
 func main() {

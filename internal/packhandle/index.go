@@ -3,7 +3,7 @@ package packhandle
 import (
 	"io/fs"
 
-	"github.com/go-git/go-git/v6/plumbing/format/idxfile"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/format/idxfile"
 )
 
 // Index returns a lazily-constructed [idxfile.Index] backed by

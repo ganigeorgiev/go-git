@@ -14,9 +14,9 @@ import (
 	"github.com/kevinburke/ssh_config"
 	gossh "golang.org/x/crypto/ssh"
 
-	"github.com/go-git/go-git/v6/plumbing/transport"
-	"github.com/go-git/go-git/v6/utils/ioutil"
-	"github.com/go-git/go-git/v6/utils/trace"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/transport"
+	"github.com/ganigeorgiev/go-git/v6/utils/ioutil"
+	"github.com/ganigeorgiev/go-git/v6/utils/trace"
 )
 
 // DefaultPort is the default port for the SSH protocol.

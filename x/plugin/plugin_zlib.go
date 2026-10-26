@@ -1,7 +1,7 @@
 package plugin
 
 import (
-	xzlib "github.com/go-git/go-git/v6/x/plugin/zlib"
+	xzlib "github.com/ganigeorgiev/go-git/v6/x/plugin/zlib"
 )
 
 func init() {

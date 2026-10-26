@@ -7,7 +7,7 @@ import (
 	"net/http/httptest"
 	"net/url"
 
-	transport "github.com/go-git/go-git/v6/plumbing/transport"
+	transport "github.com/ganigeorgiev/go-git/v6/plumbing/transport"
 )
 
 // A credential held for the repository is withheld the moment a redirect leaves

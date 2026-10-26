@@ -7,8 +7,8 @@ import (
 	"sort"
 	"strconv"
 
-	format "github.com/go-git/go-git/v6/plumbing/format/config"
-	githash "github.com/go-git/go-git/v6/plumbing/hash"
+	format "github.com/ganigeorgiev/go-git/v6/plumbing/format/config"
+	githash "github.com/ganigeorgiev/go-git/v6/plumbing/hash"
 )
 
 // Hash SHA1 hashed content

@@ -11,8 +11,8 @@ import (
 	"github.com/go-git/go-billy/v6/osfs"
 	fixtures "github.com/go-git/go-git-fixtures/v6"
 
-	"github.com/go-git/go-git/v6/internal/packhandle"
-	"github.com/go-git/go-git/v6/plumbing"
+	"github.com/ganigeorgiev/go-git/v6/internal/packhandle"
+	"github.com/ganigeorgiev/go-git/v6/plumbing"
 )
 
 // validSourcesFromFixture wires Sources against the basic fixture's

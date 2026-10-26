@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"net/url"
 
-	internal "github.com/go-git/go-git/v6/internal/transport"
+	internal "github.com/ganigeorgiev/go-git/v6/internal/transport"
 )
 
 // Transport errors.

@@ -9,8 +9,8 @@ import (
 
 	"github.com/stretchr/testify/suite"
 
-	"github.com/go-git/go-git/v6/plumbing"
-	format "github.com/go-git/go-git/v6/plumbing/format/config"
+	"github.com/ganigeorgiev/go-git/v6/plumbing"
+	format "github.com/ganigeorgiev/go-git/v6/plumbing/format/config"
 )
 
 type DeltaSuite struct {

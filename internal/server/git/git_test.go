@@ -15,10 +15,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	servergit "github.com/go-git/go-git/v6/internal/server"
-	servergitdaemon "github.com/go-git/go-git/v6/internal/server/git"
-	transportgit "github.com/go-git/go-git/v6/plumbing/transport"
-	"github.com/go-git/go-git/v6/plumbing/transport/git"
+	servergit "github.com/ganigeorgiev/go-git/v6/internal/server"
+	servergitdaemon "github.com/ganigeorgiev/go-git/v6/internal/server/git"
+	transportgit "github.com/ganigeorgiev/go-git/v6/plumbing/transport"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/transport/git"
 )
 
 func TestGitServer_Archive(t *testing.T) {

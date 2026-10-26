@@ -12,9 +12,9 @@ import (
 
 	"github.com/sergi/go-diff/diffmatchpatch"
 
-	"github.com/go-git/go-git/v6/plumbing"
-	"github.com/go-git/go-git/v6/plumbing/object"
-	"github.com/go-git/go-git/v6/utils/diff"
+	"github.com/ganigeorgiev/go-git/v6/plumbing"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/object"
+	"github.com/ganigeorgiev/go-git/v6/utils/diff"
 )
 
 // BlameResult represents the result of a Blame operation.

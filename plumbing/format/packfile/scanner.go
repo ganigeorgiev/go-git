@@ -12,14 +12,14 @@ import (
 	"io"
 	"sync"
 
-	"github.com/go-git/go-git/v6/plumbing"
-	format "github.com/go-git/go-git/v6/plumbing/format/config"
-	packutil "github.com/go-git/go-git/v6/plumbing/format/packfile/util"
-	gogithash "github.com/go-git/go-git/v6/plumbing/hash"
-	"github.com/go-git/go-git/v6/plumbing/storer"
-	"github.com/go-git/go-git/v6/utils/binary"
-	"github.com/go-git/go-git/v6/utils/ioutil"
-	gogitsync "github.com/go-git/go-git/v6/utils/sync"
+	"github.com/ganigeorgiev/go-git/v6/plumbing"
+	format "github.com/ganigeorgiev/go-git/v6/plumbing/format/config"
+	packutil "github.com/ganigeorgiev/go-git/v6/plumbing/format/packfile/util"
+	gogithash "github.com/ganigeorgiev/go-git/v6/plumbing/hash"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/storer"
+	"github.com/ganigeorgiev/go-git/v6/utils/binary"
+	"github.com/ganigeorgiev/go-git/v6/utils/ioutil"
+	gogitsync "github.com/ganigeorgiev/go-git/v6/utils/sync"
 )
 
 var (

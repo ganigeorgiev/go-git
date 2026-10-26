@@ -6,7 +6,7 @@ import (
 	"encoding/hex"
 	"io"
 
-	format "github.com/go-git/go-git/v6/plumbing/format/config"
+	format "github.com/ganigeorgiev/go-git/v6/plumbing/format/config"
 )
 
 var empty = make([]byte, format.SHA256Size)

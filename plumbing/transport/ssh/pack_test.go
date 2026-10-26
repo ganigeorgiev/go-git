@@ -12,11 +12,11 @@ import (
 	"github.com/stretchr/testify/suite"
 	stdssh "golang.org/x/crypto/ssh"
 
-	"github.com/go-git/go-git/v6/internal/transport/test"
-	"github.com/go-git/go-git/v6/plumbing/transport"
-	"github.com/go-git/go-git/v6/storage"
-	"github.com/go-git/go-git/v6/storage/filesystem"
-	"github.com/go-git/go-git/v6/storage/memory"
+	"github.com/ganigeorgiev/go-git/v6/internal/transport/test"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/transport"
+	"github.com/ganigeorgiev/go-git/v6/storage"
+	"github.com/ganigeorgiev/go-git/v6/storage/filesystem"
+	"github.com/ganigeorgiev/go-git/v6/storage/memory"
 )
 
 type sshPackEnv struct {

@@ -1,8 +1,8 @@
 package storer
 
 import (
-	"github.com/go-git/go-git/v6/plumbing"
-	"github.com/go-git/go-git/v6/plumbing/format/reflog"
+	"github.com/ganigeorgiev/go-git/v6/plumbing"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/format/reflog"
 )
 
 // ReflogStorer is a storage of reflog entries for references.

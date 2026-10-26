@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"io"
 
-	"github.com/go-git/go-git/v6/plumbing/format/config"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/format/config"
 )
 
 // NewMemoryObject returns a new MemoryObject with the given ObjectHasher.

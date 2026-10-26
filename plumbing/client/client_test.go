@@ -14,9 +14,9 @@ import (
 	"github.com/stretchr/testify/require"
 	gossh "golang.org/x/crypto/ssh"
 
-	"github.com/go-git/go-git/v6/plumbing/transport"
-	xhttp "github.com/go-git/go-git/v6/plumbing/transport/http"
-	xssh "github.com/go-git/go-git/v6/plumbing/transport/ssh"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/transport"
+	xhttp "github.com/ganigeorgiev/go-git/v6/plumbing/transport/http"
+	xssh "github.com/ganigeorgiev/go-git/v6/plumbing/transport/ssh"
 )
 
 func TestNew_BuiltinSchemes(t *testing.T) {

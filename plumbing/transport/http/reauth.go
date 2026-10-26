@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"net/url"
 
-	transport "github.com/go-git/go-git/v6/plumbing/transport"
+	transport "github.com/ganigeorgiev/go-git/v6/plumbing/transport"
 )
 
 // errRetryRedirected is returned when the re-authentication retry is answered

@@ -5,9 +5,9 @@ import (
 	"io"
 	"net"
 
-	internal "github.com/go-git/go-git/v6/internal/transport"
-	"github.com/go-git/go-git/v6/plumbing/protocol/packp"
-	"github.com/go-git/go-git/v6/plumbing/protocol/packp/sideband"
+	internal "github.com/ganigeorgiev/go-git/v6/internal/transport"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/protocol/packp"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/protocol/packp/sideband"
 )
 
 // DialContextFunc is the function signature for dialing network connections.

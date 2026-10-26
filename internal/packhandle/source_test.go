@@ -7,7 +7,7 @@ import (
 	"github.com/go-git/go-billy/v6/osfs"
 	fixtures "github.com/go-git/go-git-fixtures/v6"
 
-	"github.com/go-git/go-git/v6/internal/packhandle"
+	"github.com/ganigeorgiev/go-git/v6/internal/packhandle"
 )
 
 func TestPathSource_OpenAndSize_ReadsFixturePackFile(t *testing.T) {

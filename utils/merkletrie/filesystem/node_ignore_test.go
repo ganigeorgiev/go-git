@@ -6,14 +6,14 @@ import (
 	"github.com/go-git/go-billy/v6/memfs"
 	"github.com/stretchr/testify/require"
 
-	"github.com/go-git/go-git/v6/plumbing"
-	"github.com/go-git/go-git/v6/plumbing/filemode"
-	format "github.com/go-git/go-git/v6/plumbing/format/config"
-	"github.com/go-git/go-git/v6/plumbing/format/gitignore"
-	"github.com/go-git/go-git/v6/plumbing/format/index"
-	"github.com/go-git/go-git/v6/utils/merkletrie"
-	mindex "github.com/go-git/go-git/v6/utils/merkletrie/index"
-	"github.com/go-git/go-git/v6/utils/merkletrie/noder"
+	"github.com/ganigeorgiev/go-git/v6/plumbing"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/filemode"
+	format "github.com/ganigeorgiev/go-git/v6/plumbing/format/config"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/format/gitignore"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/format/index"
+	"github.com/ganigeorgiev/go-git/v6/utils/merkletrie"
+	mindex "github.com/ganigeorgiev/go-git/v6/utils/merkletrie/index"
+	"github.com/ganigeorgiev/go-git/v6/utils/merkletrie/noder"
 )
 
 // blobHash returns the hash a Git blob would have for the given content.

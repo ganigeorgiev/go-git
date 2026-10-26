@@ -11,7 +11,7 @@ import (
 
 	"github.com/stretchr/testify/suite"
 
-	"github.com/go-git/go-git/v6/internal/test/gitenv"
+	"github.com/ganigeorgiev/go-git/v6/internal/test/gitenv"
 )
 
 // ConformanceSuite verifies go-git's gitignore against upstream Git references:

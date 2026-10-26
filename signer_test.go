@@ -9,8 +9,8 @@ import (
 
 	"github.com/go-git/go-billy/v6/memfs"
 
-	"github.com/go-git/go-git/v6/plumbing/object"
-	"github.com/go-git/go-git/v6/storage/memory"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/object"
+	"github.com/ganigeorgiev/go-git/v6/storage/memory"
 )
 
 type b64signer struct{}

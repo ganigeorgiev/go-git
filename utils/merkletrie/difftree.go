@@ -252,7 +252,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/go-git/go-git/v6/utils/merkletrie/noder"
+	"github.com/ganigeorgiev/go-git/v6/utils/merkletrie/noder"
 )
 
 // ErrCanceled is returned whenever the operation is canceled.

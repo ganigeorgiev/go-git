@@ -10,7 +10,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/go-git/go-git/v6/storage"
+	"github.com/ganigeorgiev/go-git/v6/storage"
 )
 
 // errorLoader fails every Load, so Serve returns before writing any byte.

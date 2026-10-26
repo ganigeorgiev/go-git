@@ -10,21 +10,21 @@ import (
 	"strings"
 	"time"
 
-	"github.com/go-git/go-git/v6/config"
-	"github.com/go-git/go-git/v6/internal/reference"
-	"github.com/go-git/go-git/v6/plumbing"
-	"github.com/go-git/go-git/v6/plumbing/format/packfile"
-	"github.com/go-git/go-git/v6/plumbing/format/pktline"
-	"github.com/go-git/go-git/v6/plumbing/object"
-	"github.com/go-git/go-git/v6/plumbing/protocol"
-	"github.com/go-git/go-git/v6/plumbing/protocol/capability"
-	"github.com/go-git/go-git/v6/plumbing/protocol/packp"
-	"github.com/go-git/go-git/v6/plumbing/protocol/packp/sideband"
-	"github.com/go-git/go-git/v6/plumbing/revlist"
-	"github.com/go-git/go-git/v6/plumbing/storer"
-	"github.com/go-git/go-git/v6/storage"
-	"github.com/go-git/go-git/v6/utils/ioutil"
-	"github.com/go-git/go-git/v6/utils/trace"
+	"github.com/ganigeorgiev/go-git/v6/config"
+	"github.com/ganigeorgiev/go-git/v6/internal/reference"
+	"github.com/ganigeorgiev/go-git/v6/plumbing"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/format/packfile"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/format/pktline"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/object"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/protocol"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/protocol/capability"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/protocol/packp"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/protocol/packp/sideband"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/revlist"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/storer"
+	"github.com/ganigeorgiev/go-git/v6/storage"
+	"github.com/ganigeorgiev/go-git/v6/utils/ioutil"
+	"github.com/ganigeorgiev/go-git/v6/utils/trace"
 )
 
 // UploadPackRequest is a set of options for the UploadPack service.
@@ -467,8 +467,14 @@ func serveUploadPackV2(ctx context.Context, st storage.Storer, rd *bufio.Reader,
 			return nil
 		}
 
-		cmd := strings.TrimPrefix(strings.TrimSuffix(string(line), "\n"), "command=")
-
+		cmd, isCMD := strings.CutPrefix(strings.TrimSuffix(string(line), "\n"), "command=")
+		if !isCMD {
+			// Consume (and ignore) non-commands capabilities such as "object-format=sha1".
+			// https://github.com/ganigeorgiev/go-git/issues/2519
+			_, _, _ = pktline.ReadLine(rd)
+			continue
+		}
+		
 		req := &packp.CommandRequest{}
 		switch cmd {
 		case "ls-refs":

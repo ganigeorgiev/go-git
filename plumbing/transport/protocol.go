@@ -3,7 +3,7 @@ package transport
 import (
 	"fmt"
 
-	"github.com/go-git/go-git/v6/plumbing/protocol"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/protocol"
 )
 
 // GitProtocolEnv returns the value for the GIT_PROTOCOL environment variable

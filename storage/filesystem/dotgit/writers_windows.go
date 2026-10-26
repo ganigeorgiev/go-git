@@ -9,7 +9,7 @@ import (
 	"github.com/go-git/go-billy/v6"
 	"golang.org/x/sys/windows"
 
-	"github.com/go-git/go-git/v6/utils/trace"
+	"github.com/ganigeorgiev/go-git/v6/utils/trace"
 )
 
 func fixPermissions(fs billy.Filesystem, path string) {

@@ -21,19 +21,19 @@ import (
 
 	_ "unsafe"
 
-	"github.com/go-git/go-git/v6/config"
-	"github.com/go-git/go-git/v6/internal/test/gitenv"
-	"github.com/go-git/go-git/v6/plumbing"
-	"github.com/go-git/go-git/v6/plumbing/cache"
-	"github.com/go-git/go-git/v6/plumbing/filemode"
-	formatcfg "github.com/go-git/go-git/v6/plumbing/format/config"
-	"github.com/go-git/go-git/v6/plumbing/format/index"
-	"github.com/go-git/go-git/v6/plumbing/object"
-	"github.com/go-git/go-git/v6/plumbing/storer"
-	"github.com/go-git/go-git/v6/plumbing/transport"
-	"github.com/go-git/go-git/v6/storage/filesystem"
-	"github.com/go-git/go-git/v6/storage/memory"
-	"github.com/go-git/go-git/v6/x/plugin"
+	"github.com/ganigeorgiev/go-git/v6/config"
+	"github.com/ganigeorgiev/go-git/v6/internal/test/gitenv"
+	"github.com/ganigeorgiev/go-git/v6/plumbing"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/cache"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/filemode"
+	formatcfg "github.com/ganigeorgiev/go-git/v6/plumbing/format/config"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/format/index"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/object"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/storer"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/transport"
+	"github.com/ganigeorgiev/go-git/v6/storage/filesystem"
+	"github.com/ganigeorgiev/go-git/v6/storage/memory"
+	"github.com/ganigeorgiev/go-git/v6/x/plugin"
 )
 
 // This tests that buildTreeHelper correctly
@@ -952,7 +952,7 @@ func (s *WorktreeSuite) TestCommitTreeSort() {
 	s.Require().NoError(err, buf.String())
 }
 
-// https://github.com/go-git/go-git/pull/224
+// https://github.com/ganigeorgiev/go-git/pull/224
 func (s *WorktreeSuite) TestJustStoreObjectsNotAlreadyStored() {
 	fs := s.TemporalFilesystem()
 
@@ -1153,7 +1153,7 @@ func (m *mockSigner) Sign(_ context.Context, _ io.Reader) ([]byte, error) {
 	return []byte(mockSignature), nil
 }
 
-//go:linkname resetPluginEntry github.com/go-git/go-git/v6/x/plugin.resetEntry
+//go:linkname resetPluginEntry github.com/ganigeorgiev/go-git/v6/x/plugin.resetEntry
 func resetPluginEntry(name plugin.Name)
 
 func TestBuildCommitObjectSignerSelection(t *testing.T) { //nolint:paralleltest // modifies global plugin state

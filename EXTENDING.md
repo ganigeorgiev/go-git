@@ -90,7 +90,7 @@ import (
 
     kpzlib "github.com/klauspost/compress/zlib"
 
-    "github.com/go-git/go-git/v6/x/plugin"
+    "github.com/ganigeorgiev/go-git/v6/x/plugin"
 )
 
 type klauspostProvider struct{}
@@ -137,7 +137,7 @@ The first feature exposed via the plugin system is object signing. When an `Obje
 
 ```go
 import (
-    "github.com/go-git/go-git/v6/x/plugin"
+    "github.com/ganigeorgiev/go-git/v6/x/plugin"
 )
 
 func init() {
@@ -163,8 +163,8 @@ To completely ignore System and Global configs:
 
 ```go
 import (
-    "github.com/go-git/go-git/v6/x/plugin"
-    xconfig "github.com/go-git/go-git/v6/x/plugin/config"
+    "github.com/ganigeorgiev/go-git/v6/x/plugin"
+    xconfig "github.com/ganigeorgiev/go-git/v6/x/plugin/config"
 )
 
 func init() {

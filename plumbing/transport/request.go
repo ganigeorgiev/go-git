@@ -3,7 +3,7 @@ package transport
 import (
 	"net/url"
 
-	"github.com/go-git/go-git/v6/plumbing/protocol"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/protocol"
 )
 
 // Request describes the operation to open on a remote.

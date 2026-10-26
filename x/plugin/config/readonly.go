@@ -3,7 +3,7 @@ package config
 import (
 	"errors"
 
-	"github.com/go-git/go-git/v6/config"
+	"github.com/ganigeorgiev/go-git/v6/config"
 )
 
 // ErrReadOnly is returned by SetConfig on a read-only ConfigStorer.

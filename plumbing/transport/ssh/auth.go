@@ -11,10 +11,10 @@ import (
 
 	gossh "golang.org/x/crypto/ssh"
 
-	transport "github.com/go-git/go-git/v6/plumbing/transport"
-	"github.com/go-git/go-git/v6/plumbing/transport/ssh/knownhosts"
-	"github.com/go-git/go-git/v6/plumbing/transport/ssh/sshagent"
-	"github.com/go-git/go-git/v6/utils/trace"
+	transport "github.com/ganigeorgiev/go-git/v6/plumbing/transport"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/transport/ssh/knownhosts"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/transport/ssh/sshagent"
+	"github.com/ganigeorgiev/go-git/v6/utils/trace"
 )
 
 // The names of the auth method implementations.

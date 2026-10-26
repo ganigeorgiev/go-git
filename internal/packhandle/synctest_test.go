@@ -9,7 +9,7 @@ import (
 	"testing"
 	"testing/synctest"
 
-	"github.com/go-git/go-git/v6/internal/packhandle"
+	"github.com/ganigeorgiev/go-git/v6/internal/packhandle"
 )
 
 // TestIndex_HalfClosedRetryRace pins the regression that the

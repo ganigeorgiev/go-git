@@ -14,8 +14,8 @@ import (
 	gossh "golang.org/x/crypto/ssh"
 	"golang.org/x/net/proxy"
 
-	"github.com/go-git/go-git/v6/internal/transport/test"
-	transport "github.com/go-git/go-git/v6/plumbing/transport"
+	"github.com/ganigeorgiev/go-git/v6/internal/transport/test"
+	transport "github.com/ganigeorgiev/go-git/v6/plumbing/transport"
 )
 
 func TestSOCKS5Proxy(t *testing.T) {

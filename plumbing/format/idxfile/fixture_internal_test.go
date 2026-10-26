@@ -1,6 +1,6 @@
 package idxfile
 
-import "github.com/go-git/go-git/v6/plumbing"
+import "github.com/ganigeorgiev/go-git/v6/plumbing"
 
 // fixtureHashes and fixtureOffsets mirror the values in idxfile_test.go
 // (external test package) so that internal-package tests in

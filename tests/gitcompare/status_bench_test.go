@@ -36,8 +36,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	git "github.com/go-git/go-git/v6"
-	"github.com/go-git/go-git/v6/internal/test/gitenv"
+	git "github.com/ganigeorgiev/go-git/v6"
+	"github.com/ganigeorgiev/go-git/v6/internal/test/gitenv"
 )
 
 // compareRepoEnv names an existing checkout to measure alongside the fixtures.

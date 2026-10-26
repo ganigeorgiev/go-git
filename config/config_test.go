@@ -10,9 +10,9 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/go-git/go-git/v6/plumbing"
-	"github.com/go-git/go-git/v6/plumbing/format/config"
-	"github.com/go-git/go-git/v6/plumbing/protocol"
+	"github.com/ganigeorgiev/go-git/v6/plumbing"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/format/config"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/protocol"
 )
 
 type ConfigSuite struct {
@@ -560,7 +560,7 @@ func (s *ConfigSuite) TestUnmarshalRemotesUnnamedFirst() {
   url = https://github.com/CLBRITTON2/go-git.git
   fetch = +refs/heads/*:refs/remotes/origin/*
 [remote "upstream"]
-	url = https://github.com/go-git/go-git.git
+	url = https://github.com/ganigeorgiev/go-git.git
 	fetch = +refs/heads/*:refs/remotes/upstream/*
 	`)
 
@@ -575,14 +575,14 @@ func (s *ConfigSuite) TestUnmarshalRemotesUnnamedFirst() {
 
 	namedRemote, ok := cfg.Remotes["upstream"]
 	s.True(ok, "Expected named remote 'upstream' to be present")
-	s.Equal([]string{"https://github.com/go-git/go-git.git"}, namedRemote.URLs)
+	s.Equal([]string{"https://github.com/ganigeorgiev/go-git.git"}, namedRemote.URLs)
 	s.Equal([]RefSpec{"+refs/heads/*:refs/remotes/upstream/*"}, namedRemote.Fetch)
 }
 
 func (s *ConfigSuite) TestUnmarshalRemotesNamedFirst() {
 	input := []byte(`
 [remote "upstream"]
-	url = https://github.com/go-git/go-git.git
+	url = https://github.com/ganigeorgiev/go-git.git
 	fetch = +refs/heads/*:refs/remotes/upstream/*
 [remote ""]
   url = https://github.com/CLBRITTON2/go-git.git
@@ -595,7 +595,7 @@ func (s *ConfigSuite) TestUnmarshalRemotesNamedFirst() {
 
 	namedRemote, ok := cfg.Remotes["upstream"]
 	s.True(ok, "Expected a named remote 'upstream' to be present")
-	s.Equal([]string{"https://github.com/go-git/go-git.git"}, namedRemote.URLs)
+	s.Equal([]string{"https://github.com/ganigeorgiev/go-git.git"}, namedRemote.URLs)
 	s.Equal([]RefSpec{"+refs/heads/*:refs/remotes/upstream/*"}, namedRemote.Fetch)
 
 	unnamedRemote, ok := cfg.Remotes[""]
@@ -612,7 +612,7 @@ func TestUnmarshalRemotePartialClone(t *testing.T) {
 	input := []byte(`[core]
 	repositoryformatversion = 1
 [remote "origin"]
-	url = https://github.com/go-git/go-git.git
+	url = https://github.com/ganigeorgiev/go-git.git
 	fetch = +refs/heads/*:refs/remotes/origin/*
 	promisor = true
 	partialclonefilter = blob:none
@@ -662,7 +662,7 @@ func TestMarshalRemotePartialClone(t *testing.T) {
 			cfg := NewConfig()
 			cfg.Remotes["origin"] = &RemoteConfig{
 				Name:               "origin",
-				URLs:               []string{"https://github.com/go-git/go-git.git"},
+				URLs:               []string{"https://github.com/ganigeorgiev/go-git.git"},
 				Promisor:           tc.promisor,
 				PartialCloneFilter: tc.filter,
 			}
@@ -689,7 +689,7 @@ func TestMarshalRemoteClearsPartialClone(t *testing.T) {
 	t.Parallel()
 
 	input := []byte(`[remote "origin"]
-	url = https://github.com/go-git/go-git.git
+	url = https://github.com/ganigeorgiev/go-git.git
 	fetch = +refs/heads/*:refs/remotes/origin/*
 	promisor = true
 	partialclonefilter = blob:none

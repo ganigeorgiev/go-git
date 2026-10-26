@@ -5,8 +5,8 @@ import (
 	"io"
 	"testing"
 
-	"github.com/go-git/go-git/v6/plumbing"
-	format "github.com/go-git/go-git/v6/plumbing/format/config"
+	"github.com/ganigeorgiev/go-git/v6/plumbing"
+	format "github.com/ganigeorgiev/go-git/v6/plumbing/format/config"
 )
 
 // FuzzWriterReaderRoundTrip drives Writer with a fuzz-supplied object

@@ -11,7 +11,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/go-git/go-git/v6/plumbing/format/config"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/format/config"
 )
 
 var input = strings.Repeat("43aec75c611f22c73b27ece2841e6ccca592f2", 50000000)

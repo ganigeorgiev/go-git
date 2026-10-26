@@ -13,8 +13,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	format "github.com/go-git/go-git/v6/plumbing/format/config"
-	githash "github.com/go-git/go-git/v6/plumbing/hash"
+	format "github.com/ganigeorgiev/go-git/v6/plumbing/format/config"
+	githash "github.com/ganigeorgiev/go-git/v6/plumbing/hash"
 )
 
 func TestObjectHasherUsesRegisteredSHA1(t *testing.T) { //nolint: paralleltest // modifies global algos map

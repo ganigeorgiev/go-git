@@ -9,9 +9,9 @@ import (
 	fixtures "github.com/go-git/go-git-fixtures/v6"
 	"github.com/stretchr/testify/require"
 
-	"github.com/go-git/go-git/v6/internal/fixtureutil"
-	"github.com/go-git/go-git/v6/plumbing"
-	"github.com/go-git/go-git/v6/plumbing/format/packfile"
+	"github.com/ganigeorgiev/go-git/v6/internal/fixtureutil"
+	"github.com/ganigeorgiev/go-git/v6/plumbing"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/format/packfile"
 )
 
 // TestFSObjectConcurrentReader verifies that multiple goroutines can call

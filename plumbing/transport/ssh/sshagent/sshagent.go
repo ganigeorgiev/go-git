@@ -29,7 +29,7 @@ import (
 
 	"golang.org/x/crypto/ssh/agent"
 
-	"github.com/go-git/go-git/v6/utils/trace"
+	"github.com/ganigeorgiev/go-git/v6/utils/trace"
 )
 
 // New returns a new agent.Agent that uses a unix socket

@@ -30,22 +30,22 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/go-git/go-git/v6/config"
-	archivePkg "github.com/go-git/go-git/v6/internal/archive"
-	"github.com/go-git/go-git/v6/internal/server"
-	"github.com/go-git/go-git/v6/internal/test/gitenv"
-	"github.com/go-git/go-git/v6/plumbing"
-	"github.com/go-git/go-git/v6/plumbing/cache"
-	formatcfg "github.com/go-git/go-git/v6/plumbing/format/config"
-	"github.com/go-git/go-git/v6/plumbing/object"
-	"github.com/go-git/go-git/v6/plumbing/protocol/packp"
-	"github.com/go-git/go-git/v6/plumbing/storer"
-	"github.com/go-git/go-git/v6/plumbing/transport"
-	"github.com/go-git/go-git/v6/storage"
-	"github.com/go-git/go-git/v6/storage/filesystem"
-	"github.com/go-git/go-git/v6/storage/memory"
-	"github.com/go-git/go-git/v6/x/plugin"
-	xstorage "github.com/go-git/go-git/v6/x/storage"
+	"github.com/ganigeorgiev/go-git/v6/config"
+	archivePkg "github.com/ganigeorgiev/go-git/v6/internal/archive"
+	"github.com/ganigeorgiev/go-git/v6/internal/server"
+	"github.com/ganigeorgiev/go-git/v6/internal/test/gitenv"
+	"github.com/ganigeorgiev/go-git/v6/plumbing"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/cache"
+	formatcfg "github.com/ganigeorgiev/go-git/v6/plumbing/format/config"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/object"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/protocol/packp"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/storer"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/transport"
+	"github.com/ganigeorgiev/go-git/v6/storage"
+	"github.com/ganigeorgiev/go-git/v6/storage/filesystem"
+	"github.com/ganigeorgiev/go-git/v6/storage/memory"
+	"github.com/ganigeorgiev/go-git/v6/x/plugin"
+	xstorage "github.com/ganigeorgiev/go-git/v6/x/storage"
 )
 
 func TestInit(t *testing.T) {
@@ -4309,7 +4309,7 @@ func BenchmarkPlainClone(b *testing.B) {
 	b.StopTimer()
 	clone := func(b *testing.B) {
 		r, err := PlainClone(b.TempDir(), &CloneOptions{
-			URL:          "https://github.com/go-git/go-git.git",
+			URL:          "https://github.com/ganigeorgiev/go-git.git",
 			Depth:        1,
 			Tags:         plumbing.NoTags,
 			SingleBranch: true,

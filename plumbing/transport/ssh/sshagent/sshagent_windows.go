@@ -33,7 +33,7 @@ import (
 	"github.com/Microsoft/go-winio"
 	"golang.org/x/crypto/ssh/agent"
 
-	"github.com/go-git/go-git/v6/utils/trace"
+	"github.com/ganigeorgiev/go-git/v6/utils/trace"
 )
 
 const (

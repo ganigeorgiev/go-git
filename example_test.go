@@ -9,12 +9,12 @@ import (
 
 	"github.com/go-git/go-billy/v6/memfs"
 
-	"github.com/go-git/go-git/v6"
-	"github.com/go-git/go-git/v6/config"
-	"github.com/go-git/go-git/v6/plumbing"
-	"github.com/go-git/go-git/v6/plumbing/client"
-	"github.com/go-git/go-git/v6/plumbing/transport/http"
-	"github.com/go-git/go-git/v6/storage/memory"
+	"github.com/ganigeorgiev/go-git/v6"
+	"github.com/ganigeorgiev/go-git/v6/config"
+	"github.com/ganigeorgiev/go-git/v6/plumbing"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/client"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/transport/http"
+	"github.com/ganigeorgiev/go-git/v6/storage/memory"
 )
 
 func ExampleClone() {

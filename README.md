@@ -1,13 +1,13 @@
-**This is a go-git fork with a temp workaround until [#2519](https://github.com/go-git/go-git/issues/2519) get resolved.**
+**This is a go-git fork with a temp workaround until [#2519](https://github.com/ganigeorgiev/go-git/issues/2519) get resolved.**
 
 ---
 
 ![go-git logo](https://cdn.rawgit.com/src-d/artwork/02036484/go-git/files/go-git-github-readme-header.png)
-[![GoDoc](https://godoc.org/github.com/go-git/go-git/v6?status.svg)](https://pkg.go.dev/github.com/go-git/go-git/v6) [![Build Status](https://github.com/go-git/go-git/workflows/Test/badge.svg)](https://github.com/go-git/go-git/actions) [![Go Report Card](https://goreportcard.com/badge/github.com/go-git/go-git)](https://goreportcard.com/report/github.com/go-git/go-git) [![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/go-git/go-git/badge)](https://scorecard.dev/viewer/?uri=github.com/go-git/go-git)
+[![GoDoc](https://godoc.org/github.com/ganigeorgiev/go-git/v6?status.svg)](https://pkg.go.dev/github.com/ganigeorgiev/go-git/v6) [![Build Status](https://github.com/ganigeorgiev/go-git/workflows/Test/badge.svg)](https://github.com/ganigeorgiev/go-git/actions) [![Go Report Card](https://goreportcard.com/badge/github.com/ganigeorgiev/go-git)](https://goreportcard.com/report/github.com/ganigeorgiev/go-git) [![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/ganigeorgiev/go-git/badge)](https://scorecard.dev/viewer/?uri=github.com/ganigeorgiev/go-git)
 
 *go-git* is a highly extensible git implementation library written in **pure Go**.
 
-It can be used to manipulate git repositories at low level *(plumbing)* or high level *(porcelain)*, through an idiomatic Go API. It also supports several types of storage, such as in-memory filesystems, or custom implementations, thanks to the [`Storer`](https://pkg.go.dev/github.com/go-git/go-git/v6/plumbing/storer) interface.
+It can be used to manipulate git repositories at low level *(plumbing)* or high level *(porcelain)*, through an idiomatic Go API. It also supports several types of storage, such as in-memory filesystems, or custom implementations, thanks to the [`Storer`](https://pkg.go.dev/github.com/ganigeorgiev/go-git/v6/plumbing/storer) interface.
 
 It has been actively developed since 2015 and is used extensively by [Keybase](https://keybase.io/blog/encrypted-git-for-everyone), [Gitea](https://gitea.io/en-us/), and [Pulumi](https://github.com/search?q=org%3Apulumi+go-git&type=Code), among many other libraries and tools. It is also a dependency in major CNCF projects such as [Kubernetes Prow](https://github.com/kubernetes-sigs/prow) and [Flux](https://fluxcd.io/).
 
@@ -30,13 +30,13 @@ The project is actively maintained by individual contributors, including several
 The recommended way to install *go-git* is:
 
 ```go
-import "github.com/go-git/go-git/v6"
+import "github.com/ganigeorgiev/go-git/v6"
 ```
 
 
 ## Examples
 
-> Please note that the `CheckIfError` and `Info` functions used in the examples are from the [examples package](https://github.com/go-git/go-git/blob/main/_examples/common.go#L19) just to be used in the examples.
+> Please note that the `CheckIfError` and `Info` functions used in the examples are from the [examples package](https://github.com/ganigeorgiev/go-git/blob/main/_examples/common.go#L19) just to be used in the examples.
 
 
 ### Basic example
@@ -45,10 +45,10 @@ A basic example that mimics the standard `git clone` command
 
 ```go
 // Clone the given repository to the given directory
-Info("git clone https://github.com/go-git/go-git")
+Info("git clone https://github.com/ganigeorgiev/go-git")
 
 _, err := git.PlainClone("/tmp/foo", &git.CloneOptions{
-    URL:      "https://github.com/go-git/go-git",
+    URL:      "https://github.com/ganigeorgiev/go-git",
     Progress: os.Stdout,
 })
 
@@ -121,7 +121,7 @@ You can find this [example](_examples/log/main.go) and many others in the [examp
 
 ## Contribute
 
-[Contributions](https://github.com/go-git/go-git/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22) are more than welcome, if you are interested please take a look to
+[Contributions](https://github.com/ganigeorgiev/go-git/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22) are more than welcome, if you are interested please take a look to
 our [Contributing Guidelines](CONTRIBUTING.md).
 
 ## License

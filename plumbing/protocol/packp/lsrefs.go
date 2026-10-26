@@ -7,8 +7,8 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/go-git/go-git/v6/plumbing"
-	"github.com/go-git/go-git/v6/plumbing/format/pktline"
+	"github.com/ganigeorgiev/go-git/v6/plumbing"
+	"github.com/ganigeorgiev/go-git/v6/plumbing/format/pktline"
 )
 
 // LsRefsArgs represents the arguments for the v2 ls-refs command.

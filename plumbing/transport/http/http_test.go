@@ -15,8 +15,8 @@ import (
 	fixtures "github.com/go-git/go-git-fixtures/v6"
 	"github.com/stretchr/testify/require"
 
-	"github.com/go-git/go-git/v6/internal/test/gitenv"
-	"github.com/go-git/go-git/v6/internal/transport/test"
+	"github.com/ganigeorgiev/go-git/v6/internal/test/gitenv"
+	"github.com/ganigeorgiev/go-git/v6/internal/transport/test"
 )
 
 func setupSmartServer(t testing.TB) (base string, addr *net.TCPAddr) {
